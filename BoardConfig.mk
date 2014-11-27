@@ -33,7 +33,6 @@ DEVICE_RESOLUTION := 480x800
 TARGET_OTA_ASSERT_DEVICE := w5,w5ds
 
 # Nfc
-#BOARD_NFC_HAL_SUFFIX := w5
-#BOARD_NFC_CHIPSET := pn547
+BOARD_NFC_CHIPSET := pn547
 
 -include vendor/lge/w5/BoardConfigVendor.mk

@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += Torch
 PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
-    nfc_nci.w5 \
+    nfc_nci.pn54x.default \
     com.android.nfc_extras
 
 NFCEE_ACCESS_PATH := device/lge/w5/prebuilt/etc/nfcee_access.xml
