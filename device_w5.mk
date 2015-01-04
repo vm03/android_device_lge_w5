@@ -33,7 +33,8 @@ PRODUCT_PACKAGES += \
 NFCEE_ACCESS_PATH := device/lge/w5/prebuilt/etc/nfcee_access.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=240
+    ro.sf.lcd_density=240 \
+    ro.telephony.ril_class=W7RIL
 
 PRODUCT_COPY_FILES += \
     device/lge/w5/mixer_paths.xml:system/etc/mixer_paths.xml \
