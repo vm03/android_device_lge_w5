@@ -1,2321 +1,443 @@
-
-
-
-
-<!DOCTYPE html>
-<html lang="en" class="">
-  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Language" content="en">
-    
-    
-    <title>android_device_lge_w7/Generic-D4x5.kl at 7e641053f0ae8d6bd43f35d31e7cbf613088dd29 · CyanogenMod/android_device_lge_w7 · GitHub</title>
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
-    <meta property="fb:app_id" content="1401488693436528">
-
-      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="CyanogenMod/android_device_lge_w7" name="twitter:title" /><meta content="Contribute to android_device_lge_w7 development by creating an account on GitHub." name="twitter:description" /><meta content="https://avatars3.githubusercontent.com/u/317721?v=3&amp;s=400" name="twitter:image:src" />
-<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars3.githubusercontent.com/u/317721?v=3&amp;s=400" property="og:image" /><meta content="CyanogenMod/android_device_lge_w7" property="og:title" /><meta content="https://github.com/CyanogenMod/android_device_lge_w7" property="og:url" /><meta content="Contribute to android_device_lge_w7 development by creating an account on GitHub." property="og:description" />
-
-      <meta name="browser-stats-url" content="/_stats">
-    <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="conduit-xhr" href="https://ghconduit.com:25035">
-    
-    <meta name="pjax-timeout" content="1000">
-    
-
-    <meta name="msapplication-TileImage" content="/windows-tile.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="selected-link" value="repo_source" data-pjax-transient>
-      <meta name="google-analytics" content="UA-3769691-2">
-
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="D40D6552:389F:240BD20:54AC1715" name="octolytics-dimension-request_id" />
-    
-    <meta content="Rails, view, blob#show" name="analytics-event" />
-
-    
-    
-    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
-
-
-    <meta content="authenticity_token" name="csrf-param" />
-<meta content="a4AtFNfEPvvX1eLNng+kBElN9TfijGRsDN9JiYQuZg1ecA/r2IpnRy6UTskG5mmctAHFDBMaOua9KDHrwWsQ0g==" name="csrf-token" />
-
-    <link href="https://assets-cdn.github.com/assets/github-b17397ebba3626317cff85c0ebe484451b2ba54643ecdc5715d587644bcd7407.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="https://assets-cdn.github.com/assets/github2-7db4c7ec8e8941c3b226bc8a9ec014bbe1ec0a320cbdfcb7600d7f6a4a184b37.css" media="all" rel="stylesheet" type="text/css" />
-    
-    
-
-
-    <meta http-equiv="x-pjax-version" content="4a803b2e99c6e11fb936e51f65d07431">
-
-      
-  <meta name="description" content="Contribute to android_device_lge_w7 development by creating an account on GitHub.">
-  <meta name="go-import" content="github.com/CyanogenMod/android_device_lge_w7 git https://github.com/CyanogenMod/android_device_lge_w7.git">
-
-  <meta content="317721" name="octolytics-dimension-user_id" /><meta content="CyanogenMod" name="octolytics-dimension-user_login" /><meta content="26775557" name="octolytics-dimension-repository_id" /><meta content="CyanogenMod/android_device_lge_w7" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="26775557" name="octolytics-dimension-repository_network_root_id" /><meta content="CyanogenMod/android_device_lge_w7" name="octolytics-dimension-repository_network_root_nwo" />
-  <link href="https://github.com/CyanogenMod/android_device_lge_w7/commits/7e641053f0ae8d6bd43f35d31e7cbf613088dd29.atom" rel="alternate" title="Recent Commits to android_device_lge_w7:7e641053f0ae8d6bd43f35d31e7cbf613088dd29" type="application/atom+xml">
-
-  </head>
-
-
-  <body class="logged_out  env-production  vis-public page-blob">
-    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
-    <div class="wrapper">
-      
-      
-      
-      
-
-
-      
-      <div class="header header-logged-out" role="banner">
-  <div class="container clearfix">
-
-    <a class="header-logo-wordmark" href="https://github.com/" ga-data-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
-      <span class="mega-octicon octicon-logo-github"></span>
-    </a>
-
-    <div class="header-actions" role="navigation">
-        <a class="button primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
-      <a class="button" href="/login?return_to=%2FCyanogenMod%2Fandroid_device_lge_w7%2Fblob%2F7e641053f0ae8d6bd43f35d31e7cbf613088dd29%2Fprebuilt%2Fusr%2Fkeylayout%2FGeneric-D4x5.kl" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
-    </div>
-
-    <div class="site-search repo-scope js-site-search" role="search">
-      <form accept-charset="UTF-8" action="/CyanogenMod/android_device_lge_w7/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/CyanogenMod/android_device_lge_w7/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
-  <input type="text"
-    class="js-site-search-field is-clearable"
-    data-hotkey="s"
-    name="q"
-    placeholder="Search"
-    data-global-scope-placeholder="Search GitHub"
-    data-repo-scope-placeholder="Search"
-    tabindex="1"
-    autocapitalize="off">
-  <div class="scope-badge">This repository</div>
-</form>
-    </div>
-
-      <ul class="header-nav left" role="navigation">
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
-          </li>
-      </ul>
-
-  </div>
-</div>
-
-
-
-      <div id="start-of-content" class="accessibility-aid"></div>
-          <div class="site" itemscope itemtype="http://schema.org/WebPage">
-    <div id="js-flash-container">
-      
-    </div>
-    <div class="pagehead repohead instapaper_ignore readability-menu">
-      <div class="container">
-        
-<ul class="pagehead-actions">
-
-
-  <li>
-      <a href="/login?return_to=%2FCyanogenMod%2Fandroid_device_lge_w7"
-    class="minibutton with-count star-button tooltipped tooltipped-n"
-    aria-label="You must be signed in to star a repository" rel="nofollow">
-    <span class="octicon octicon-star"></span>
-    Star
-  </a>
-
-    <a class="social-count js-social-count" href="/CyanogenMod/android_device_lge_w7/stargazers">
-      1
-    </a>
-
-  </li>
-
-    <li>
-      <a href="/login?return_to=%2FCyanogenMod%2Fandroid_device_lge_w7"
-        class="minibutton with-count js-toggler-target fork-button tooltipped tooltipped-n"
-        aria-label="You must be signed in to fork a repository" rel="nofollow">
-        <span class="octicon octicon-repo-forked"></span>
-        Fork
-      </a>
-      <a href="/CyanogenMod/android_device_lge_w7/network" class="social-count">
-        2
-      </a>
-    </li>
-</ul>
-
-        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
-          <span class="mega-octicon octicon-repo"></span>
-          <span class="author"><a href="/CyanogenMod" class="url fn" itemprop="url" rel="author"><span itemprop="title">CyanogenMod</span></a></span><!--
-       --><span class="path-divider">/</span><!--
-       --><strong><a href="/CyanogenMod/android_device_lge_w7" class="js-current-repository" data-pjax="#js-repo-pjax-container">android_device_lge_w7</a></strong>
-
-          <span class="page-context-loader">
-            <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
-          </span>
-
-        </h1>
-      </div><!-- /.container -->
-    </div><!-- /.repohead -->
-
-    <div class="container">
-      <div class="repository-with-sidebar repo-container new-discussion-timeline  ">
-        <div class="repository-sidebar clearfix">
-            
-<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
-     role="navigation"
-     data-pjax="#js-repo-pjax-container"
-     data-issue-count-url="/CyanogenMod/android_device_lge_w7/issues/counts">
-  <ul class="sunken-menu-group">
-    <li class="tooltipped tooltipped-w" aria-label="Code">
-      <a href="/CyanogenMod/android_device_lge_w7" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /CyanogenMod/android_device_lge_w7">
-        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
-        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>    </li>
-
-      <li class="tooltipped tooltipped-w" aria-label="Issues">
-        <a href="/CyanogenMod/android_device_lge_w7/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /CyanogenMod/android_device_lge_w7/issues">
-          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
-          <span class="js-issue-replace-counter"></span>
-          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>      </li>
-
-    <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
-      <a href="/CyanogenMod/android_device_lge_w7/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /CyanogenMod/android_device_lge_w7/pulls">
-          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
-          <span class="js-pull-replace-counter"></span>
-          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>    </li>
-
-
-  </ul>
-  <div class="sunken-menu-separator"></div>
-  <ul class="sunken-menu-group">
-
-    <li class="tooltipped tooltipped-w" aria-label="Pulse">
-      <a href="/CyanogenMod/android_device_lge_w7/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /CyanogenMod/android_device_lge_w7/pulse">
-        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
-        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>    </li>
-
-    <li class="tooltipped tooltipped-w" aria-label="Graphs">
-      <a href="/CyanogenMod/android_device_lge_w7/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /CyanogenMod/android_device_lge_w7/graphs">
-        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
-        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>    </li>
-  </ul>
-
-
-</nav>
-
-              <div class="only-with-full-nav">
-                
-  
-<div class="clone-url open"
-  data-protocol-type="http"
-  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
-  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
-  <div class="input-group js-zeroclipboard-container">
-    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
-           value="https://github.com/CyanogenMod/android_device_lge_w7.git" readonly="readonly">
-    <span class="input-group-button">
-      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
-    </span>
-  </div>
-</div>
-
-  
-<div class="clone-url "
-  data-protocol-type="subversion"
-  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
-  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
-  <div class="input-group js-zeroclipboard-container">
-    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
-           value="https://github.com/CyanogenMod/android_device_lge_w7" readonly="readonly">
-    <span class="input-group-button">
-      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
-    </span>
-  </div>
-</div>
-
-
-
-<p class="clone-options">You can clone with
-  <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a> or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
-  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
-    <span class="octicon octicon-question"></span>
-  </a>
-</p>
-
-
-
-                <a href="/CyanogenMod/android_device_lge_w7/archive/7e641053f0ae8d6bd43f35d31e7cbf613088dd29.zip"
-                   class="minibutton sidebar-button"
-                   aria-label="Download the contents of CyanogenMod/android_device_lge_w7 as a zip file"
-                   title="Download the contents of CyanogenMod/android_device_lge_w7 as a zip file"
-                   rel="nofollow">
-                  <span class="octicon octicon-cloud-download"></span>
-                  Download ZIP
-                </a>
-              </div>
-        </div><!-- /.repository-sidebar -->
-
-        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
-          
-
-<a href="/CyanogenMod/android_device_lge_w7/blob/7e641053f0ae8d6bd43f35d31e7cbf613088dd29/prebuilt/usr/keylayout/Generic-D4x5.kl" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
-
-<!-- blob contrib key: blob_contributors:v21:57cbb8005b65ef3e2c3ab732806a2d64 -->
-
-<div class="file-navigation js-zeroclipboard-container">
-  
-<div class="select-menu js-menu-container js-select-menu left">
-  <span class="minibutton select-menu-button js-menu-target css-truncate" data-hotkey="w"
-    data-master-branch="cm-11.0"
-    data-ref=""
-    title=""
-    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
-    <span class="octicon octicon-git-branch"></span>
-    <i>tree:</i>
-    <span class="js-select-button css-truncate-target">7e641053f0</span>
-  </span>
-
-  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
-
-    <div class="select-menu-modal">
-      <div class="select-menu-header">
-        <span class="select-menu-title">Switch branches/tags</span>
-        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
-      </div> <!-- /.select-menu-header -->
-
-      <div class="select-menu-filters">
-        <div class="select-menu-text-filter">
-          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
-        </div>
-        <div class="select-menu-tabs">
-          <ul>
-            <li class="select-menu-tab">
-              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
-            </li>
-            <li class="select-menu-tab">
-              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
-            </li>
-          </ul>
-        </div><!-- /.select-menu-tabs -->
-      </div><!-- /.select-menu-filters -->
-
-      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
-
-        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-
-
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/CyanogenMod/android_device_lge_w7/blob/cm-11.0/prebuilt/usr/keylayout/Generic-D4x5.kl"
-                 data-name="cm-11.0"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text css-truncate-target"
-                 title="cm-11.0">cm-11.0</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/CyanogenMod/android_device_lge_w7/blob/cm-12.0/prebuilt/usr/keylayout/Generic-D4x5.kl"
-                 data-name="cm-12.0"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text css-truncate-target"
-                 title="cm-12.0">cm-12.0</a>
-            </div> <!-- /.select-menu-item -->
-        </div>
-
-          <div class="select-menu-no-results">Nothing to show</div>
-      </div> <!-- /.select-menu-list -->
-
-      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
-        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-
-
-        </div>
-
-        <div class="select-menu-no-results">Nothing to show</div>
-      </div> <!-- /.select-menu-list -->
-
-    </div> <!-- /.select-menu-modal -->
-  </div> <!-- /.select-menu-modal-holder -->
-</div> <!-- /.select-menu -->
-
-  <div class="button-group right">
-    <a href="/CyanogenMod/android_device_lge_w7/find/7e641053f0ae8d6bd43f35d31e7cbf613088dd29"
-          class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s"
-          data-pjax
-          data-hotkey="t"
-          aria-label="Quickly jump between files">
-      <span class="octicon octicon-list-unordered"></span>
-    </a>
-    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
-  </div>
-
-  <div class="breadcrumb js-zeroclipboard-target">
-    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/CyanogenMod/android_device_lge_w7/tree/7e641053f0ae8d6bd43f35d31e7cbf613088dd29" class="" data-branch="7e641053f0ae8d6bd43f35d31e7cbf613088dd29" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">android_device_lge_w7</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/CyanogenMod/android_device_lge_w7/tree/7e641053f0ae8d6bd43f35d31e7cbf613088dd29/prebuilt" class="" data-branch="7e641053f0ae8d6bd43f35d31e7cbf613088dd29" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">prebuilt</span></a></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/CyanogenMod/android_device_lge_w7/tree/7e641053f0ae8d6bd43f35d31e7cbf613088dd29/prebuilt/usr" class="" data-branch="7e641053f0ae8d6bd43f35d31e7cbf613088dd29" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">usr</span></a></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/CyanogenMod/android_device_lge_w7/tree/7e641053f0ae8d6bd43f35d31e7cbf613088dd29/prebuilt/usr/keylayout" class="" data-branch="7e641053f0ae8d6bd43f35d31e7cbf613088dd29" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">keylayout</span></a></span><span class="separator">/</span><strong class="final-path">Generic-D4x5.kl</strong>
-  </div>
-</div>
-
-
-  <div class="commit file-history-tease">
-    <div class="file-history-tease-header">
-        <img alt="Mateusz Wawrzyńczak" class="avatar" data-user="4903584" height="24" src="https://avatars0.githubusercontent.com/u/4903584?v=3&amp;s=48" width="24" />
-        <span class="author"><a href="/BigMajster" rel="contributor">BigMajster</a></span>
-        <time datetime="2014-12-19T16:08:27Z" is="relative-time">Dec 19, 2014</time>
-        <div class="commit-title">
-            <a href="/CyanogenMod/android_device_lge_w7/commit/7e641053f0ae8d6bd43f35d31e7cbf613088dd29" class="message" data-pjax="true" title="Keys and NFC checker update
-
-Change-Id: I77ddaee79579609c9be30fe18e55795dae3784ed">Keys and NFC checker update</a>
-        </div>
-    </div>
-
-    <div class="participation">
-      <p class="quickstat">
-        <a href="#blob_contributors_box" rel="facebox">
-          <strong>1</strong>
-           contributor
-        </a>
-      </p>
-      
-    </div>
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list">
-          <li class="facebox-user-list-item">
-            <img alt="Mateusz Wawrzyńczak" data-user="4903584" height="24" src="https://avatars0.githubusercontent.com/u/4903584?v=3&amp;s=48" width="24" />
-            <a href="/BigMajster">BigMajster</a>
-          </li>
-      </ul>
-    </div>
-  </div>
-
-<div class="file-box">
-  <div class="file">
-    <div class="meta clearfix">
-      <div class="info file-name">
-          <span class="mode" title="File mode">executable file</span>
-          <span class="meta-divider"></span>
-          <span>444 lines (424 sloc)</span>
-          <span class="meta-divider"></span>
-        <span>9.259 kb</span>
-      </div>
-      <div class="actions">
-        <div class="button-group">
-          <a href="/CyanogenMod/android_device_lge_w7/raw/7e641053f0ae8d6bd43f35d31e7cbf613088dd29/prebuilt/usr/keylayout/Generic-D4x5.kl" class="minibutton " id="raw-url">Raw</a>
-            <a href="/CyanogenMod/android_device_lge_w7/blame/7e641053f0ae8d6bd43f35d31e7cbf613088dd29/prebuilt/usr/keylayout/Generic-D4x5.kl" class="minibutton js-update-url-with-hash">Blame</a>
-          <a href="/CyanogenMod/android_device_lge_w7/commits/7e641053f0ae8d6bd43f35d31e7cbf613088dd29/prebuilt/usr/keylayout/Generic-D4x5.kl" class="minibutton " rel="nofollow">History</a>
-        </div><!-- /.button-group -->
-
-
-            <a class="octicon-button disabled tooltipped tooltipped-w" href="#"
-               aria-label="You must be signed in to make or propose changes"><span class="octicon octicon-pencil"></span></a>
-
-          <a class="octicon-button danger disabled tooltipped tooltipped-w" href="#"
-             aria-label="You must be signed in to make or propose changes">
-          <span class="octicon octicon-trashcan"></span>
-        </a>
-      </div><!-- /.actions -->
-    </div>
-    
-
-  <div class="blob-wrapper data type-text">
-      <table class="highlight tab-size-8 js-file-line-container">
-      <tr>
-        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code js-file-line"># Copyright (C) 2010 The Android Open Source Project</td>
-      </tr>
-      <tr>
-        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code js-file-line"># Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</td>
-      </tr>
-      <tr>
-        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code js-file-line"># you may not use this file except in compliance with the License.</td>
-      </tr>
-      <tr>
-        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code js-file-line"># You may obtain a copy of the License at</td>
-      </tr>
-      <tr>
-        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code js-file-line">#      http://www.apache.org/licenses/LICENSE-2.0</td>
-      </tr>
-      <tr>
-        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code js-file-line"># Unless required by applicable law or agreed to in writing, software</td>
-      </tr>
-      <tr>
-        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code js-file-line"># distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</td>
-      </tr>
-      <tr>
-        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code js-file-line"># WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</td>
-      </tr>
-      <tr>
-        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code js-file-line"># See the License for the specific language governing permissions and</td>
-      </tr>
-      <tr>
-        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code js-file-line"># limitations under the License.</td>
-      </tr>
-      <tr>
-        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code js-file-line"># Generic key layout file for full alphabetic US English PC style external keyboards.</td>
-      </tr>
-      <tr>
-        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code js-file-line"># This file is intentionally very generic and is intended to support a broad rang of keyboards.</td>
-      </tr>
-      <tr>
-        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code js-file-line"># Do not edit the generic key layout to support a specific keyboard; instead, create</td>
-      </tr>
-      <tr>
-        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code js-file-line"># a new key layout file with the required keyboard configuration.</td>
-      </tr>
-      <tr>
-        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code js-file-line">key 1     ESCAPE</td>
-      </tr>
-      <tr>
-        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code js-file-line">key 2     1</td>
-      </tr>
-      <tr>
-        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code js-file-line">key 3     2</td>
-      </tr>
-      <tr>
-        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code js-file-line">key 4     3</td>
-      </tr>
-      <tr>
-        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code js-file-line">key 5     4</td>
-      </tr>
-      <tr>
-        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code js-file-line">key 6     5</td>
-      </tr>
-      <tr>
-        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code js-file-line">key 7     6</td>
-      </tr>
-      <tr>
-        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code js-file-line">key 8     7</td>
-      </tr>
-      <tr>
-        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code js-file-line">key 9     8</td>
-      </tr>
-      <tr>
-        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code js-file-line">key 10    9</td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code js-file-line">key 11    0</td>
-      </tr>
-      <tr>
-        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code js-file-line">key 12    MINUS</td>
-      </tr>
-      <tr>
-        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code js-file-line">key 13    EQUALS</td>
-      </tr>
-      <tr>
-        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code js-file-line">key 14    DEL</td>
-      </tr>
-      <tr>
-        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code js-file-line">key 15    TAB</td>
-      </tr>
-      <tr>
-        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code js-file-line">key 16    Q</td>
-      </tr>
-      <tr>
-        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code js-file-line">key 17    W</td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code js-file-line">key 18    E</td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code js-file-line">key 19    R</td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code js-file-line">key 20    T</td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code js-file-line">key 21    Y</td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code js-file-line">key 22    U</td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code js-file-line">key 23    I</td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code js-file-line">key 24    O</td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code js-file-line">key 25    P</td>
-      </tr>
-      <tr>
-        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code js-file-line">key 26    LEFT_BRACKET</td>
-      </tr>
-      <tr>
-        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code js-file-line">key 27    RIGHT_BRACKET</td>
-      </tr>
-      <tr>
-        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code js-file-line">key 28    ENTER</td>
-      </tr>
-      <tr>
-        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code js-file-line">key 29    CTRL_LEFT</td>
-      </tr>
-      <tr>
-        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code js-file-line">key 30    A</td>
-      </tr>
-      <tr>
-        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code js-file-line">key 31    S</td>
-      </tr>
-      <tr>
-        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code js-file-line">key 32    D</td>
-      </tr>
-      <tr>
-        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code js-file-line">key 33    F</td>
-      </tr>
-      <tr>
-        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code js-file-line">key 34    G</td>
-      </tr>
-      <tr>
-        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code js-file-line">key 35    H</td>
-      </tr>
-      <tr>
-        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code js-file-line">key 36    J</td>
-      </tr>
-      <tr>
-        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code js-file-line">key 37    K</td>
-      </tr>
-      <tr>
-        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code js-file-line">key 38    L</td>
-      </tr>
-      <tr>
-        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code js-file-line">key 39    SEMICOLON</td>
-      </tr>
-      <tr>
-        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code js-file-line">key 40    APOSTROPHE</td>
-      </tr>
-      <tr>
-        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code js-file-line">key 41    GRAVE</td>
-      </tr>
-      <tr>
-        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code js-file-line">key 42    SHIFT_LEFT</td>
-      </tr>
-      <tr>
-        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code js-file-line">key 43    BACKSLASH</td>
-      </tr>
-      <tr>
-        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code js-file-line">key 44    Z</td>
-      </tr>
-      <tr>
-        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code js-file-line">key 45    X</td>
-      </tr>
-      <tr>
-        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code js-file-line">key 46    C</td>
-      </tr>
-      <tr>
-        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code js-file-line">key 47    V</td>
-      </tr>
-      <tr>
-        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code js-file-line">key 48    B</td>
-      </tr>
-      <tr>
-        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="LC71" class="blob-code js-file-line">key 49    N</td>
-      </tr>
-      <tr>
-        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code js-file-line">key 50    M</td>
-      </tr>
-      <tr>
-        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code js-file-line">key 51    COMMA</td>
-      </tr>
-      <tr>
-        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code js-file-line">key 52    PERIOD</td>
-      </tr>
-      <tr>
-        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code js-file-line">key 53    SLASH</td>
-      </tr>
-      <tr>
-        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code js-file-line">key 54    SHIFT_RIGHT</td>
-      </tr>
-      <tr>
-        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code js-file-line">key 55    NUMPAD_MULTIPLY</td>
-      </tr>
-      <tr>
-        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code js-file-line">key 56    ALT_LEFT</td>
-      </tr>
-      <tr>
-        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code js-file-line">key 57    SPACE</td>
-      </tr>
-      <tr>
-        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code js-file-line">key 58    CAPS_LOCK</td>
-      </tr>
-      <tr>
-        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
-        <td id="LC81" class="blob-code js-file-line">key 59    F1</td>
-      </tr>
-      <tr>
-        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
-        <td id="LC82" class="blob-code js-file-line">key 60    F2</td>
-      </tr>
-      <tr>
-        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
-        <td id="LC83" class="blob-code js-file-line">key 61    F3</td>
-      </tr>
-      <tr>
-        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
-        <td id="LC84" class="blob-code js-file-line">key 62    F4</td>
-      </tr>
-      <tr>
-        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
-        <td id="LC85" class="blob-code js-file-line">key 63    F5</td>
-      </tr>
-      <tr>
-        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
-        <td id="LC86" class="blob-code js-file-line">key 64    F6</td>
-      </tr>
-      <tr>
-        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
-        <td id="LC87" class="blob-code js-file-line">key 65    F7</td>
-      </tr>
-      <tr>
-        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
-        <td id="LC88" class="blob-code js-file-line">key 66    F8</td>
-      </tr>
-      <tr>
-        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
-        <td id="LC89" class="blob-code js-file-line">key 67    F9</td>
-      </tr>
-      <tr>
-        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
-        <td id="LC90" class="blob-code js-file-line">key 68    F10</td>
-      </tr>
-      <tr>
-        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
-        <td id="LC91" class="blob-code js-file-line">key 69    NUM_LOCK</td>
-      </tr>
-      <tr>
-        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
-        <td id="LC92" class="blob-code js-file-line">key 70    SCROLL_LOCK</td>
-      </tr>
-      <tr>
-        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
-        <td id="LC93" class="blob-code js-file-line">key 71    NUMPAD_7</td>
-      </tr>
-      <tr>
-        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
-        <td id="LC94" class="blob-code js-file-line">key 72    NUMPAD_8</td>
-      </tr>
-      <tr>
-        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
-        <td id="LC95" class="blob-code js-file-line">key 73    NUMPAD_9</td>
-      </tr>
-      <tr>
-        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
-        <td id="LC96" class="blob-code js-file-line">key 74    NUMPAD_SUBTRACT</td>
-      </tr>
-      <tr>
-        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
-        <td id="LC97" class="blob-code js-file-line">key 75    NUMPAD_4</td>
-      </tr>
-      <tr>
-        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
-        <td id="LC98" class="blob-code js-file-line">key 76    NUMPAD_5</td>
-      </tr>
-      <tr>
-        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
-        <td id="LC99" class="blob-code js-file-line">key 77    NUMPAD_6</td>
-      </tr>
-      <tr>
-        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
-        <td id="LC100" class="blob-code js-file-line">key 78    NUMPAD_ADD</td>
-      </tr>
-      <tr>
-        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
-        <td id="LC101" class="blob-code js-file-line">key 79    NUMPAD_1</td>
-      </tr>
-      <tr>
-        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
-        <td id="LC102" class="blob-code js-file-line">key 80    NUMPAD_2</td>
-      </tr>
-      <tr>
-        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
-        <td id="LC103" class="blob-code js-file-line">key 81    NUMPAD_3</td>
-      </tr>
-      <tr>
-        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
-        <td id="LC104" class="blob-code js-file-line">key 82    NUMPAD_0</td>
-      </tr>
-      <tr>
-        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
-        <td id="LC105" class="blob-code js-file-line">key 83    NUMPAD_DOT</td>
-      </tr>
-      <tr>
-        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
-        <td id="LC106" class="blob-code js-file-line"># key 84 (undefined)</td>
-      </tr>
-      <tr>
-        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
-        <td id="LC107" class="blob-code js-file-line">key 85    ZENKAKU_HANKAKU</td>
-      </tr>
-      <tr>
-        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
-        <td id="LC108" class="blob-code js-file-line">key 86    BACKSLASH</td>
-      </tr>
-      <tr>
-        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
-        <td id="LC109" class="blob-code js-file-line">key 87    F11</td>
-      </tr>
-      <tr>
-        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
-        <td id="LC110" class="blob-code js-file-line">key 88    F12</td>
-      </tr>
-      <tr>
-        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
-        <td id="LC111" class="blob-code js-file-line">key 89    RO</td>
-      </tr>
-      <tr>
-        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
-        <td id="LC112" class="blob-code js-file-line"># key 90 &quot;KEY_KATAKANA&quot;</td>
-      </tr>
-      <tr>
-        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
-        <td id="LC113" class="blob-code js-file-line"># key 91 &quot;KEY_HIRAGANA&quot;</td>
-      </tr>
-      <tr>
-        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
-        <td id="LC114" class="blob-code js-file-line">key 92    HENKAN</td>
-      </tr>
-      <tr>
-        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
-        <td id="LC115" class="blob-code js-file-line">key 93    KATAKANA_HIRAGANA</td>
-      </tr>
-      <tr>
-        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
-        <td id="LC116" class="blob-code js-file-line">key 94    MUHENKAN</td>
-      </tr>
-      <tr>
-        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
-        <td id="LC117" class="blob-code js-file-line">key 95    NUMPAD_COMMA</td>
-      </tr>
-      <tr>
-        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
-        <td id="LC118" class="blob-code js-file-line">key 96    NUMPAD_ENTER</td>
-      </tr>
-      <tr>
-        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
-        <td id="LC119" class="blob-code js-file-line">key 97    CTRL_RIGHT</td>
-      </tr>
-      <tr>
-        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
-        <td id="LC120" class="blob-code js-file-line">key 98    NUMPAD_DIVIDE</td>
-      </tr>
-      <tr>
-        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
-        <td id="LC121" class="blob-code js-file-line">key 99    SYSRQ</td>
-      </tr>
-      <tr>
-        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
-        <td id="LC122" class="blob-code js-file-line">key 100   ALT_RIGHT</td>
-      </tr>
-      <tr>
-        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
-        <td id="LC123" class="blob-code js-file-line"># key 101 &quot;KEY_LINEFEED&quot;</td>
-      </tr>
-      <tr>
-        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
-        <td id="LC124" class="blob-code js-file-line">key 102   HOME              VIRTUAL</td>
-      </tr>
-      <tr>
-        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
-        <td id="LC125" class="blob-code js-file-line">key 103   DPAD_UP</td>
-      </tr>
-      <tr>
-        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
-        <td id="LC126" class="blob-code js-file-line">key 104   PAGE_UP</td>
-      </tr>
-      <tr>
-        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
-        <td id="LC127" class="blob-code js-file-line">key 105   DPAD_LEFT</td>
-      </tr>
-      <tr>
-        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
-        <td id="LC128" class="blob-code js-file-line">key 106   DPAD_RIGHT</td>
-      </tr>
-      <tr>
-        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
-        <td id="LC129" class="blob-code js-file-line">key 107   MOVE_END</td>
-      </tr>
-      <tr>
-        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
-        <td id="LC130" class="blob-code js-file-line">key 108   DPAD_DOWN</td>
-      </tr>
-      <tr>
-        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
-        <td id="LC131" class="blob-code js-file-line">key 109   PAGE_DOWN</td>
-      </tr>
-      <tr>
-        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
-        <td id="LC132" class="blob-code js-file-line">key 110   INSERT</td>
-      </tr>
-      <tr>
-        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
-        <td id="LC133" class="blob-code js-file-line">key 111   FORWARD_DEL</td>
-      </tr>
-      <tr>
-        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
-        <td id="LC134" class="blob-code js-file-line"># key 112 &quot;KEY_MACRO&quot;</td>
-      </tr>
-      <tr>
-        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
-        <td id="LC135" class="blob-code js-file-line">key 113   VOLUME_MUTE</td>
-      </tr>
-      <tr>
-        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
-        <td id="LC136" class="blob-code js-file-line">key 114   VOLUME_DOWN</td>
-      </tr>
-      <tr>
-        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
-        <td id="LC137" class="blob-code js-file-line">key 115   VOLUME_UP</td>
-      </tr>
-      <tr>
-        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
-        <td id="LC138" class="blob-code js-file-line">key 116   POWER</td>
-      </tr>
-      <tr>
-        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
-        <td id="LC139" class="blob-code js-file-line">key 117   NUMPAD_EQUALS</td>
-      </tr>
-      <tr>
-        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
-        <td id="LC140" class="blob-code js-file-line"># key 118 &quot;KEY_KPPLUSMINUS&quot;</td>
-      </tr>
-      <tr>
-        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
-        <td id="LC141" class="blob-code js-file-line">key 119   BREAK</td>
-      </tr>
-      <tr>
-        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
-        <td id="LC142" class="blob-code js-file-line"># key 120 (undefined)</td>
-      </tr>
-      <tr>
-        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
-        <td id="LC143" class="blob-code js-file-line">key 121   NUMPAD_COMMA</td>
-      </tr>
-      <tr>
-        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
-        <td id="LC144" class="blob-code js-file-line">key 122   KANA</td>
-      </tr>
-      <tr>
-        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
-        <td id="LC145" class="blob-code js-file-line">key 123   EISU</td>
-      </tr>
-      <tr>
-        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
-        <td id="LC146" class="blob-code js-file-line">key 124   YEN</td>
-      </tr>
-      <tr>
-        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
-        <td id="LC147" class="blob-code js-file-line">key 125   META_LEFT</td>
-      </tr>
-      <tr>
-        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
-        <td id="LC148" class="blob-code js-file-line">key 126   META_RIGHT</td>
-      </tr>
-      <tr>
-        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
-        <td id="LC149" class="blob-code js-file-line">key 127   MENU</td>
-      </tr>
-      <tr>
-        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
-        <td id="LC150" class="blob-code js-file-line">key 128   MEDIA_STOP</td>
-      </tr>
-      <tr>
-        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
-        <td id="LC151" class="blob-code js-file-line"># key 129 &quot;KEY_AGAIN&quot;</td>
-      </tr>
-      <tr>
-        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
-        <td id="LC152" class="blob-code js-file-line"># key 130 &quot;KEY_PROPS&quot;</td>
-      </tr>
-      <tr>
-        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
-        <td id="LC153" class="blob-code js-file-line"># key 131 &quot;KEY_UNDO&quot;</td>
-      </tr>
-      <tr>
-        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
-        <td id="LC154" class="blob-code js-file-line"># key 132 &quot;KEY_FRONT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
-        <td id="LC155" class="blob-code js-file-line"># key 133 &quot;KEY_COPY&quot;</td>
-      </tr>
-      <tr>
-        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
-        <td id="LC156" class="blob-code js-file-line"># key 134 &quot;KEY_OPEN&quot;</td>
-      </tr>
-      <tr>
-        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
-        <td id="LC157" class="blob-code js-file-line"># key 135 &quot;KEY_PASTE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
-        <td id="LC158" class="blob-code js-file-line"># key 136 &quot;KEY_FIND&quot;</td>
-      </tr>
-      <tr>
-        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
-        <td id="LC159" class="blob-code js-file-line"># key 137 &quot;KEY_CUT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
-        <td id="LC160" class="blob-code js-file-line"># key 138 &quot;KEY_HELP&quot;</td>
-      </tr>
-      <tr>
-        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
-        <td id="LC161" class="blob-code js-file-line">key 139   MENU</td>
-      </tr>
-      <tr>
-        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
-        <td id="LC162" class="blob-code js-file-line">key 140   CALCULATOR</td>
-      </tr>
-      <tr>
-        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
-        <td id="LC163" class="blob-code js-file-line"># key 141 &quot;KEY_SETUP&quot;</td>
-      </tr>
-      <tr>
-        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
-        <td id="LC164" class="blob-code js-file-line">key 142   SLEEP</td>
-      </tr>
-      <tr>
-        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
-        <td id="LC165" class="blob-code js-file-line">key 143   WAKEUP</td>
-      </tr>
-      <tr>
-        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
-        <td id="LC166" class="blob-code js-file-line"># key 144 &quot;KEY_FILE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
-        <td id="LC167" class="blob-code js-file-line"># key 145 &quot;KEY_SENDFILE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
-        <td id="LC168" class="blob-code js-file-line"># key 146 &quot;KEY_DELETEFILE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
-        <td id="LC169" class="blob-code js-file-line"># key 147 &quot;KEY_XFER&quot;</td>
-      </tr>
-      <tr>
-        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
-        <td id="LC170" class="blob-code js-file-line"># key 148 &quot;KEY_PROG1&quot;</td>
-      </tr>
-      <tr>
-        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
-        <td id="LC171" class="blob-code js-file-line"># key 149 &quot;KEY_PROG2&quot;</td>
-      </tr>
-      <tr>
-        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
-        <td id="LC172" class="blob-code js-file-line">key 150   EXPLORER</td>
-      </tr>
-      <tr>
-        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
-        <td id="LC173" class="blob-code js-file-line"># key 151 &quot;KEY_MSDOS&quot;</td>
-      </tr>
-      <tr>
-        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
-        <td id="LC174" class="blob-code js-file-line">key 152   POWER</td>
-      </tr>
-      <tr>
-        <td id="L175" class="blob-num js-line-number" data-line-number="175"></td>
-        <td id="LC175" class="blob-code js-file-line"># key 153 &quot;KEY_DIRECTION&quot;</td>
-      </tr>
-      <tr>
-        <td id="L176" class="blob-num js-line-number" data-line-number="176"></td>
-        <td id="LC176" class="blob-code js-file-line"># key 154 &quot;KEY_CYCLEWINDOWS&quot;</td>
-      </tr>
-      <tr>
-        <td id="L177" class="blob-num js-line-number" data-line-number="177"></td>
-        <td id="LC177" class="blob-code js-file-line">key 155   ENVELOPE</td>
-      </tr>
-      <tr>
-        <td id="L178" class="blob-num js-line-number" data-line-number="178"></td>
-        <td id="LC178" class="blob-code js-file-line">key 156   BOOKMARK</td>
-      </tr>
-      <tr>
-        <td id="L179" class="blob-num js-line-number" data-line-number="179"></td>
-        <td id="LC179" class="blob-code js-file-line"># key 157 &quot;KEY_COMPUTER&quot;</td>
-      </tr>
-      <tr>
-        <td id="L180" class="blob-num js-line-number" data-line-number="180"></td>
-        <td id="LC180" class="blob-code js-file-line">key 158   BACK              VIRTUAL</td>
-      </tr>
-      <tr>
-        <td id="L181" class="blob-num js-line-number" data-line-number="181"></td>
-        <td id="LC181" class="blob-code js-file-line">key 159   FORWARD</td>
-      </tr>
-      <tr>
-        <td id="L182" class="blob-num js-line-number" data-line-number="182"></td>
-        <td id="LC182" class="blob-code js-file-line">key 160   MEDIA_CLOSE</td>
-      </tr>
-      <tr>
-        <td id="L183" class="blob-num js-line-number" data-line-number="183"></td>
-        <td id="LC183" class="blob-code js-file-line">key 161   MEDIA_EJECT</td>
-      </tr>
-      <tr>
-        <td id="L184" class="blob-num js-line-number" data-line-number="184"></td>
-        <td id="LC184" class="blob-code js-file-line">key 162   MEDIA_EJECT</td>
-      </tr>
-      <tr>
-        <td id="L185" class="blob-num js-line-number" data-line-number="185"></td>
-        <td id="LC185" class="blob-code js-file-line">key 163   MEDIA_NEXT</td>
-      </tr>
-      <tr>
-        <td id="L186" class="blob-num js-line-number" data-line-number="186"></td>
-        <td id="LC186" class="blob-code js-file-line">key 164   MEDIA_PLAY_PAUSE</td>
-      </tr>
-      <tr>
-        <td id="L187" class="blob-num js-line-number" data-line-number="187"></td>
-        <td id="LC187" class="blob-code js-file-line">key 165   MEDIA_PREVIOUS</td>
-      </tr>
-      <tr>
-        <td id="L188" class="blob-num js-line-number" data-line-number="188"></td>
-        <td id="LC188" class="blob-code js-file-line">key 166   MEDIA_STOP</td>
-      </tr>
-      <tr>
-        <td id="L189" class="blob-num js-line-number" data-line-number="189"></td>
-        <td id="LC189" class="blob-code js-file-line">key 167   MEDIA_RECORD</td>
-      </tr>
-      <tr>
-        <td id="L190" class="blob-num js-line-number" data-line-number="190"></td>
-        <td id="LC190" class="blob-code js-file-line">key 168   MEDIA_REWIND</td>
-      </tr>
-      <tr>
-        <td id="L191" class="blob-num js-line-number" data-line-number="191"></td>
-        <td id="LC191" class="blob-code js-file-line">key 169   CALL</td>
-      </tr>
-      <tr>
-        <td id="L192" class="blob-num js-line-number" data-line-number="192"></td>
-        <td id="LC192" class="blob-code js-file-line"># key 170 &quot;KEY_ISO&quot;</td>
-      </tr>
-      <tr>
-        <td id="L193" class="blob-num js-line-number" data-line-number="193"></td>
-        <td id="LC193" class="blob-code js-file-line">key 171   MUSIC</td>
-      </tr>
-      <tr>
-        <td id="L194" class="blob-num js-line-number" data-line-number="194"></td>
-        <td id="LC194" class="blob-code js-file-line">key 172   MENU              VIRTUAL</td>
-      </tr>
-      <tr>
-        <td id="L195" class="blob-num js-line-number" data-line-number="195"></td>
-        <td id="LC195" class="blob-code js-file-line"># key 173 &quot;KEY_REFRESH&quot;</td>
-      </tr>
-      <tr>
-        <td id="L196" class="blob-num js-line-number" data-line-number="196"></td>
-        <td id="LC196" class="blob-code js-file-line"># key 174 &quot;KEY_EXIT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L197" class="blob-num js-line-number" data-line-number="197"></td>
-        <td id="LC197" class="blob-code js-file-line"># key 175 &quot;KEY_MOVE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L198" class="blob-num js-line-number" data-line-number="198"></td>
-        <td id="LC198" class="blob-code js-file-line"># key 176 &quot;KEY_EDIT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L199" class="blob-num js-line-number" data-line-number="199"></td>
-        <td id="LC199" class="blob-code js-file-line">key 177   PAGE_UP</td>
-      </tr>
-      <tr>
-        <td id="L200" class="blob-num js-line-number" data-line-number="200"></td>
-        <td id="LC200" class="blob-code js-file-line">key 178   PAGE_DOWN</td>
-      </tr>
-      <tr>
-        <td id="L201" class="blob-num js-line-number" data-line-number="201"></td>
-        <td id="LC201" class="blob-code js-file-line">key 179   NUMPAD_LEFT_PAREN</td>
-      </tr>
-      <tr>
-        <td id="L202" class="blob-num js-line-number" data-line-number="202"></td>
-        <td id="LC202" class="blob-code js-file-line">key 180   NUMPAD_RIGHT_PAREN</td>
-      </tr>
-      <tr>
-        <td id="L203" class="blob-num js-line-number" data-line-number="203"></td>
-        <td id="LC203" class="blob-code js-file-line"># key 181 &quot;KEY_NEW&quot;</td>
-      </tr>
-      <tr>
-        <td id="L204" class="blob-num js-line-number" data-line-number="204"></td>
-        <td id="LC204" class="blob-code js-file-line"># key 182 &quot;KEY_REDO&quot;</td>
-      </tr>
-      <tr>
-        <td id="L205" class="blob-num js-line-number" data-line-number="205"></td>
-        <td id="LC205" class="blob-code js-file-line"># key 183   F13</td>
-      </tr>
-      <tr>
-        <td id="L206" class="blob-num js-line-number" data-line-number="206"></td>
-        <td id="LC206" class="blob-code js-file-line"># key 184   F14</td>
-      </tr>
-      <tr>
-        <td id="L207" class="blob-num js-line-number" data-line-number="207"></td>
-        <td id="LC207" class="blob-code js-file-line"># key 185   F15</td>
-      </tr>
-      <tr>
-        <td id="L208" class="blob-num js-line-number" data-line-number="208"></td>
-        <td id="LC208" class="blob-code js-file-line"># key 186   F16</td>
-      </tr>
-      <tr>
-        <td id="L209" class="blob-num js-line-number" data-line-number="209"></td>
-        <td id="LC209" class="blob-code js-file-line"># key 187   F17</td>
-      </tr>
-      <tr>
-        <td id="L210" class="blob-num js-line-number" data-line-number="210"></td>
-        <td id="LC210" class="blob-code js-file-line"># key 188   F18</td>
-      </tr>
-      <tr>
-        <td id="L211" class="blob-num js-line-number" data-line-number="211"></td>
-        <td id="LC211" class="blob-code js-file-line"># key 189   F19</td>
-      </tr>
-      <tr>
-        <td id="L212" class="blob-num js-line-number" data-line-number="212"></td>
-        <td id="LC212" class="blob-code js-file-line"># key 190   F20</td>
-      </tr>
-      <tr>
-        <td id="L213" class="blob-num js-line-number" data-line-number="213"></td>
-        <td id="LC213" class="blob-code js-file-line"># key 191   F21</td>
-      </tr>
-      <tr>
-        <td id="L214" class="blob-num js-line-number" data-line-number="214"></td>
-        <td id="LC214" class="blob-code js-file-line"># key 192   F22</td>
-      </tr>
-      <tr>
-        <td id="L215" class="blob-num js-line-number" data-line-number="215"></td>
-        <td id="LC215" class="blob-code js-file-line"># key 193   F23</td>
-      </tr>
-      <tr>
-        <td id="L216" class="blob-num js-line-number" data-line-number="216"></td>
-        <td id="LC216" class="blob-code js-file-line"># key 194   F24</td>
-      </tr>
-      <tr>
-        <td id="L217" class="blob-num js-line-number" data-line-number="217"></td>
-        <td id="LC217" class="blob-code js-file-line"># key 195 (undefined)</td>
-      </tr>
-      <tr>
-        <td id="L218" class="blob-num js-line-number" data-line-number="218"></td>
-        <td id="LC218" class="blob-code js-file-line"># key 196 (undefined)</td>
-      </tr>
-      <tr>
-        <td id="L219" class="blob-num js-line-number" data-line-number="219"></td>
-        <td id="LC219" class="blob-code js-file-line"># key 197 (undefined)</td>
-      </tr>
-      <tr>
-        <td id="L220" class="blob-num js-line-number" data-line-number="220"></td>
-        <td id="LC220" class="blob-code js-file-line"># key 198 (undefined)</td>
-      </tr>
-      <tr>
-        <td id="L221" class="blob-num js-line-number" data-line-number="221"></td>
-        <td id="LC221" class="blob-code js-file-line"># key 199 (undefined)</td>
-      </tr>
-      <tr>
-        <td id="L222" class="blob-num js-line-number" data-line-number="222"></td>
-        <td id="LC222" class="blob-code js-file-line">key 200   MEDIA_PLAY</td>
-      </tr>
-      <tr>
-        <td id="L223" class="blob-num js-line-number" data-line-number="223"></td>
-        <td id="LC223" class="blob-code js-file-line">key 201   MEDIA_PAUSE</td>
-      </tr>
-      <tr>
-        <td id="L224" class="blob-num js-line-number" data-line-number="224"></td>
-        <td id="LC224" class="blob-code js-file-line"># key 202 &quot;KEY_PROG3&quot;</td>
-      </tr>
-      <tr>
-        <td id="L225" class="blob-num js-line-number" data-line-number="225"></td>
-        <td id="LC225" class="blob-code js-file-line"># key 203 &quot;KEY_PROG4&quot;</td>
-      </tr>
-      <tr>
-        <td id="L226" class="blob-num js-line-number" data-line-number="226"></td>
-        <td id="LC226" class="blob-code js-file-line"># key 204 (undefined)</td>
-      </tr>
-      <tr>
-        <td id="L227" class="blob-num js-line-number" data-line-number="227"></td>
-        <td id="LC227" class="blob-code js-file-line"># key 205 &quot;KEY_SUSPEND&quot;</td>
-      </tr>
-      <tr>
-        <td id="L228" class="blob-num js-line-number" data-line-number="228"></td>
-        <td id="LC228" class="blob-code js-file-line"># key 206 &quot;KEY_CLOSE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L229" class="blob-num js-line-number" data-line-number="229"></td>
-        <td id="LC229" class="blob-code js-file-line">key 207   MEDIA_PLAY</td>
-      </tr>
-      <tr>
-        <td id="L230" class="blob-num js-line-number" data-line-number="230"></td>
-        <td id="LC230" class="blob-code js-file-line">key 208   MEDIA_FAST_FORWARD</td>
-      </tr>
-      <tr>
-        <td id="L231" class="blob-num js-line-number" data-line-number="231"></td>
-        <td id="LC231" class="blob-code js-file-line"># key 209 &quot;KEY_BASSBOOST&quot;</td>
-      </tr>
-      <tr>
-        <td id="L232" class="blob-num js-line-number" data-line-number="232"></td>
-        <td id="LC232" class="blob-code js-file-line"># key 210 &quot;KEY_PRINT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L233" class="blob-num js-line-number" data-line-number="233"></td>
-        <td id="LC233" class="blob-code js-file-line"># key 211 &quot;KEY_HP&quot;</td>
-      </tr>
-      <tr>
-        <td id="L234" class="blob-num js-line-number" data-line-number="234"></td>
-        <td id="LC234" class="blob-code js-file-line">key 212   CAMERA</td>
-      </tr>
-      <tr>
-        <td id="L235" class="blob-num js-line-number" data-line-number="235"></td>
-        <td id="LC235" class="blob-code js-file-line">key 213   MUSIC</td>
-      </tr>
-      <tr>
-        <td id="L236" class="blob-num js-line-number" data-line-number="236"></td>
-        <td id="LC236" class="blob-code js-file-line"># key 214 &quot;KEY_QUESTION&quot;</td>
-      </tr>
-      <tr>
-        <td id="L237" class="blob-num js-line-number" data-line-number="237"></td>
-        <td id="LC237" class="blob-code js-file-line">key 215   ENVELOPE</td>
-      </tr>
-      <tr>
-        <td id="L238" class="blob-num js-line-number" data-line-number="238"></td>
-        <td id="LC238" class="blob-code js-file-line"># key 216 &quot;KEY_CHAT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L239" class="blob-num js-line-number" data-line-number="239"></td>
-        <td id="LC239" class="blob-code js-file-line">key 217   SEARCH</td>
-      </tr>
-      <tr>
-        <td id="L240" class="blob-num js-line-number" data-line-number="240"></td>
-        <td id="LC240" class="blob-code js-file-line"># key 218 &quot;KEY_CONNECT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L241" class="blob-num js-line-number" data-line-number="241"></td>
-        <td id="LC241" class="blob-code js-file-line"># key 219 &quot;KEY_FINANCE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L242" class="blob-num js-line-number" data-line-number="242"></td>
-        <td id="LC242" class="blob-code js-file-line"># key 220 &quot;KEY_SPORT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L243" class="blob-num js-line-number" data-line-number="243"></td>
-        <td id="LC243" class="blob-code js-file-line"># key 221 &quot;KEY_SHOP&quot;</td>
-      </tr>
-      <tr>
-        <td id="L244" class="blob-num js-line-number" data-line-number="244"></td>
-        <td id="LC244" class="blob-code js-file-line"># key 222 &quot;KEY_ALTERASE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L245" class="blob-num js-line-number" data-line-number="245"></td>
-        <td id="LC245" class="blob-code js-file-line"># key 223 &quot;KEY_CANCEL&quot;</td>
-      </tr>
-      <tr>
-        <td id="L246" class="blob-num js-line-number" data-line-number="246"></td>
-        <td id="LC246" class="blob-code js-file-line">key 224   BRIGHTNESS_DOWN</td>
-      </tr>
-      <tr>
-        <td id="L247" class="blob-num js-line-number" data-line-number="247"></td>
-        <td id="LC247" class="blob-code js-file-line">key 225   BRIGHTNESS_UP</td>
-      </tr>
-      <tr>
-        <td id="L248" class="blob-num js-line-number" data-line-number="248"></td>
-        <td id="LC248" class="blob-code js-file-line">key 226   HEADSETHOOK</td>
-      </tr>
-      <tr>
-        <td id="L249" class="blob-num js-line-number" data-line-number="249"></td>
-        <td id="LC249" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L250" class="blob-num js-line-number" data-line-number="250"></td>
-        <td id="LC250" class="blob-code js-file-line">key 250   INFO</td>
-      </tr>
-      <tr>
-        <td id="L251" class="blob-num js-line-number" data-line-number="251"></td>
-        <td id="LC251" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L252" class="blob-num js-line-number" data-line-number="252"></td>
-        <td id="LC252" class="blob-code js-file-line">key 256   BUTTON_1</td>
-      </tr>
-      <tr>
-        <td id="L253" class="blob-num js-line-number" data-line-number="253"></td>
-        <td id="LC253" class="blob-code js-file-line">key 257   BUTTON_2</td>
-      </tr>
-      <tr>
-        <td id="L254" class="blob-num js-line-number" data-line-number="254"></td>
-        <td id="LC254" class="blob-code js-file-line">key 258   BUTTON_3</td>
-      </tr>
-      <tr>
-        <td id="L255" class="blob-num js-line-number" data-line-number="255"></td>
-        <td id="LC255" class="blob-code js-file-line">key 259   BUTTON_4</td>
-      </tr>
-      <tr>
-        <td id="L256" class="blob-num js-line-number" data-line-number="256"></td>
-        <td id="LC256" class="blob-code js-file-line">key 260   BUTTON_5</td>
-      </tr>
-      <tr>
-        <td id="L257" class="blob-num js-line-number" data-line-number="257"></td>
-        <td id="LC257" class="blob-code js-file-line">key 261   BUTTON_6</td>
-      </tr>
-      <tr>
-        <td id="L258" class="blob-num js-line-number" data-line-number="258"></td>
-        <td id="LC258" class="blob-code js-file-line">key 262   BUTTON_7</td>
-      </tr>
-      <tr>
-        <td id="L259" class="blob-num js-line-number" data-line-number="259"></td>
-        <td id="LC259" class="blob-code js-file-line">key 263   BUTTON_8</td>
-      </tr>
-      <tr>
-        <td id="L260" class="blob-num js-line-number" data-line-number="260"></td>
-        <td id="LC260" class="blob-code js-file-line">key 264   BUTTON_9</td>
-      </tr>
-      <tr>
-        <td id="L261" class="blob-num js-line-number" data-line-number="261"></td>
-        <td id="LC261" class="blob-code js-file-line">key 265   BUTTON_10</td>
-      </tr>
-      <tr>
-        <td id="L262" class="blob-num js-line-number" data-line-number="262"></td>
-        <td id="LC262" class="blob-code js-file-line">key 266   BUTTON_11</td>
-      </tr>
-      <tr>
-        <td id="L263" class="blob-num js-line-number" data-line-number="263"></td>
-        <td id="LC263" class="blob-code js-file-line">key 267   BUTTON_12</td>
-      </tr>
-      <tr>
-        <td id="L264" class="blob-num js-line-number" data-line-number="264"></td>
-        <td id="LC264" class="blob-code js-file-line">key 268   BUTTON_13</td>
-      </tr>
-      <tr>
-        <td id="L265" class="blob-num js-line-number" data-line-number="265"></td>
-        <td id="LC265" class="blob-code js-file-line">key 269   BUTTON_14</td>
-      </tr>
-      <tr>
-        <td id="L266" class="blob-num js-line-number" data-line-number="266"></td>
-        <td id="LC266" class="blob-code js-file-line">key 270   BUTTON_15</td>
-      </tr>
-      <tr>
-        <td id="L267" class="blob-num js-line-number" data-line-number="267"></td>
-        <td id="LC267" class="blob-code js-file-line">key 271   BUTTON_16</td>
-      </tr>
-      <tr>
-        <td id="L268" class="blob-num js-line-number" data-line-number="268"></td>
-        <td id="LC268" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L269" class="blob-num js-line-number" data-line-number="269"></td>
-        <td id="LC269" class="blob-code js-file-line">key 288   BUTTON_1</td>
-      </tr>
-      <tr>
-        <td id="L270" class="blob-num js-line-number" data-line-number="270"></td>
-        <td id="LC270" class="blob-code js-file-line">key 289   BUTTON_2</td>
-      </tr>
-      <tr>
-        <td id="L271" class="blob-num js-line-number" data-line-number="271"></td>
-        <td id="LC271" class="blob-code js-file-line">key 290   BUTTON_3</td>
-      </tr>
-      <tr>
-        <td id="L272" class="blob-num js-line-number" data-line-number="272"></td>
-        <td id="LC272" class="blob-code js-file-line">key 291   BUTTON_4</td>
-      </tr>
-      <tr>
-        <td id="L273" class="blob-num js-line-number" data-line-number="273"></td>
-        <td id="LC273" class="blob-code js-file-line">key 292   BUTTON_5</td>
-      </tr>
-      <tr>
-        <td id="L274" class="blob-num js-line-number" data-line-number="274"></td>
-        <td id="LC274" class="blob-code js-file-line">key 293   BUTTON_6</td>
-      </tr>
-      <tr>
-        <td id="L275" class="blob-num js-line-number" data-line-number="275"></td>
-        <td id="LC275" class="blob-code js-file-line">key 294   BUTTON_7</td>
-      </tr>
-      <tr>
-        <td id="L276" class="blob-num js-line-number" data-line-number="276"></td>
-        <td id="LC276" class="blob-code js-file-line">key 295   BUTTON_8</td>
-      </tr>
-      <tr>
-        <td id="L277" class="blob-num js-line-number" data-line-number="277"></td>
-        <td id="LC277" class="blob-code js-file-line">key 296   BUTTON_9</td>
-      </tr>
-      <tr>
-        <td id="L278" class="blob-num js-line-number" data-line-number="278"></td>
-        <td id="LC278" class="blob-code js-file-line">key 297   BUTTON_10</td>
-      </tr>
-      <tr>
-        <td id="L279" class="blob-num js-line-number" data-line-number="279"></td>
-        <td id="LC279" class="blob-code js-file-line">key 298   BUTTON_11</td>
-      </tr>
-      <tr>
-        <td id="L280" class="blob-num js-line-number" data-line-number="280"></td>
-        <td id="LC280" class="blob-code js-file-line">key 299   BUTTON_12</td>
-      </tr>
-      <tr>
-        <td id="L281" class="blob-num js-line-number" data-line-number="281"></td>
-        <td id="LC281" class="blob-code js-file-line">key 300   BUTTON_13</td>
-      </tr>
-      <tr>
-        <td id="L282" class="blob-num js-line-number" data-line-number="282"></td>
-        <td id="LC282" class="blob-code js-file-line">key 301   BUTTON_14</td>
-      </tr>
-      <tr>
-        <td id="L283" class="blob-num js-line-number" data-line-number="283"></td>
-        <td id="LC283" class="blob-code js-file-line">key 302   BUTTON_15</td>
-      </tr>
-      <tr>
-        <td id="L284" class="blob-num js-line-number" data-line-number="284"></td>
-        <td id="LC284" class="blob-code js-file-line">key 303   BUTTON_16</td>
-      </tr>
-      <tr>
-        <td id="L285" class="blob-num js-line-number" data-line-number="285"></td>
-        <td id="LC285" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L286" class="blob-num js-line-number" data-line-number="286"></td>
-        <td id="LC286" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L287" class="blob-num js-line-number" data-line-number="287"></td>
-        <td id="LC287" class="blob-code js-file-line">key 304   BUTTON_A</td>
-      </tr>
-      <tr>
-        <td id="L288" class="blob-num js-line-number" data-line-number="288"></td>
-        <td id="LC288" class="blob-code js-file-line">key 305   BUTTON_B</td>
-      </tr>
-      <tr>
-        <td id="L289" class="blob-num js-line-number" data-line-number="289"></td>
-        <td id="LC289" class="blob-code js-file-line">key 306   BUTTON_C</td>
-      </tr>
-      <tr>
-        <td id="L290" class="blob-num js-line-number" data-line-number="290"></td>
-        <td id="LC290" class="blob-code js-file-line">key 307   BUTTON_X</td>
-      </tr>
-      <tr>
-        <td id="L291" class="blob-num js-line-number" data-line-number="291"></td>
-        <td id="LC291" class="blob-code js-file-line">key 308   BUTTON_Y</td>
-      </tr>
-      <tr>
-        <td id="L292" class="blob-num js-line-number" data-line-number="292"></td>
-        <td id="LC292" class="blob-code js-file-line">key 309   BUTTON_Z</td>
-      </tr>
-      <tr>
-        <td id="L293" class="blob-num js-line-number" data-line-number="293"></td>
-        <td id="LC293" class="blob-code js-file-line">key 310   BUTTON_L1</td>
-      </tr>
-      <tr>
-        <td id="L294" class="blob-num js-line-number" data-line-number="294"></td>
-        <td id="LC294" class="blob-code js-file-line">key 311   BUTTON_R1</td>
-      </tr>
-      <tr>
-        <td id="L295" class="blob-num js-line-number" data-line-number="295"></td>
-        <td id="LC295" class="blob-code js-file-line">key 312   BUTTON_L2</td>
-      </tr>
-      <tr>
-        <td id="L296" class="blob-num js-line-number" data-line-number="296"></td>
-        <td id="LC296" class="blob-code js-file-line">key 313   BUTTON_R2</td>
-      </tr>
-      <tr>
-        <td id="L297" class="blob-num js-line-number" data-line-number="297"></td>
-        <td id="LC297" class="blob-code js-file-line">key 314   BUTTON_SELECT</td>
-      </tr>
-      <tr>
-        <td id="L298" class="blob-num js-line-number" data-line-number="298"></td>
-        <td id="LC298" class="blob-code js-file-line">key 315   BUTTON_START</td>
-      </tr>
-      <tr>
-        <td id="L299" class="blob-num js-line-number" data-line-number="299"></td>
-        <td id="LC299" class="blob-code js-file-line">key 316   BUTTON_MODE</td>
-      </tr>
-      <tr>
-        <td id="L300" class="blob-num js-line-number" data-line-number="300"></td>
-        <td id="LC300" class="blob-code js-file-line">key 317   BUTTON_THUMBL</td>
-      </tr>
-      <tr>
-        <td id="L301" class="blob-num js-line-number" data-line-number="301"></td>
-        <td id="LC301" class="blob-code js-file-line">key 318   BUTTON_THUMBR</td>
-      </tr>
-      <tr>
-        <td id="L302" class="blob-num js-line-number" data-line-number="302"></td>
-        <td id="LC302" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L303" class="blob-num js-line-number" data-line-number="303"></td>
-        <td id="LC303" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L304" class="blob-num js-line-number" data-line-number="304"></td>
-        <td id="LC304" class="blob-code js-file-line"># key 352 &quot;KEY_OK&quot;</td>
-      </tr>
-      <tr>
-        <td id="L305" class="blob-num js-line-number" data-line-number="305"></td>
-        <td id="LC305" class="blob-code js-file-line">key 353   DPAD_CENTER</td>
-      </tr>
-      <tr>
-        <td id="L306" class="blob-num js-line-number" data-line-number="306"></td>
-        <td id="LC306" class="blob-code js-file-line"># key 354 &quot;KEY_GOTO&quot;</td>
-      </tr>
-      <tr>
-        <td id="L307" class="blob-num js-line-number" data-line-number="307"></td>
-        <td id="LC307" class="blob-code js-file-line"># key 355 &quot;KEY_CLEAR&quot;</td>
-      </tr>
-      <tr>
-        <td id="L308" class="blob-num js-line-number" data-line-number="308"></td>
-        <td id="LC308" class="blob-code js-file-line"># key 356 &quot;KEY_POWER2&quot;</td>
-      </tr>
-      <tr>
-        <td id="L309" class="blob-num js-line-number" data-line-number="309"></td>
-        <td id="LC309" class="blob-code js-file-line"># key 357 &quot;KEY_OPTION&quot;</td>
-      </tr>
-      <tr>
-        <td id="L310" class="blob-num js-line-number" data-line-number="310"></td>
-        <td id="LC310" class="blob-code js-file-line"># key 358 &quot;KEY_INFO&quot;</td>
-      </tr>
-      <tr>
-        <td id="L311" class="blob-num js-line-number" data-line-number="311"></td>
-        <td id="LC311" class="blob-code js-file-line"># key 359 &quot;KEY_TIME&quot;</td>
-      </tr>
-      <tr>
-        <td id="L312" class="blob-num js-line-number" data-line-number="312"></td>
-        <td id="LC312" class="blob-code js-file-line"># key 360 &quot;KEY_VENDOR&quot;</td>
-      </tr>
-      <tr>
-        <td id="L313" class="blob-num js-line-number" data-line-number="313"></td>
-        <td id="LC313" class="blob-code js-file-line"># key 361 &quot;KEY_ARCHIVE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L314" class="blob-num js-line-number" data-line-number="314"></td>
-        <td id="LC314" class="blob-code js-file-line">key 362   GUIDE</td>
-      </tr>
-      <tr>
-        <td id="L315" class="blob-num js-line-number" data-line-number="315"></td>
-        <td id="LC315" class="blob-code js-file-line"># key 363 &quot;KEY_CHANNEL&quot;</td>
-      </tr>
-      <tr>
-        <td id="L316" class="blob-num js-line-number" data-line-number="316"></td>
-        <td id="LC316" class="blob-code js-file-line"># key 364 &quot;KEY_FAVORITES&quot;</td>
-      </tr>
-      <tr>
-        <td id="L317" class="blob-num js-line-number" data-line-number="317"></td>
-        <td id="LC317" class="blob-code js-file-line"># key 365 &quot;KEY_EPG&quot;</td>
-      </tr>
-      <tr>
-        <td id="L318" class="blob-num js-line-number" data-line-number="318"></td>
-        <td id="LC318" class="blob-code js-file-line">key 366   DVR</td>
-      </tr>
-      <tr>
-        <td id="L319" class="blob-num js-line-number" data-line-number="319"></td>
-        <td id="LC319" class="blob-code js-file-line"># key 367 &quot;KEY_MHP&quot;</td>
-      </tr>
-      <tr>
-        <td id="L320" class="blob-num js-line-number" data-line-number="320"></td>
-        <td id="LC320" class="blob-code js-file-line"># key 368 &quot;KEY_LANGUAGE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L321" class="blob-num js-line-number" data-line-number="321"></td>
-        <td id="LC321" class="blob-code js-file-line"># key 369 &quot;KEY_TITLE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L322" class="blob-num js-line-number" data-line-number="322"></td>
-        <td id="LC322" class="blob-code js-file-line"># key 370 &quot;KEY_SUBTITLE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L323" class="blob-num js-line-number" data-line-number="323"></td>
-        <td id="LC323" class="blob-code js-file-line"># key 371 &quot;KEY_ANGLE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L324" class="blob-num js-line-number" data-line-number="324"></td>
-        <td id="LC324" class="blob-code js-file-line"># key 372 &quot;KEY_ZOOM&quot;</td>
-      </tr>
-      <tr>
-        <td id="L325" class="blob-num js-line-number" data-line-number="325"></td>
-        <td id="LC325" class="blob-code js-file-line"># key 373 &quot;KEY_MODE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L326" class="blob-num js-line-number" data-line-number="326"></td>
-        <td id="LC326" class="blob-code js-file-line"># key 374 &quot;KEY_KEYBOARD&quot;</td>
-      </tr>
-      <tr>
-        <td id="L327" class="blob-num js-line-number" data-line-number="327"></td>
-        <td id="LC327" class="blob-code js-file-line"># key 375 &quot;KEY_SCREEN&quot;</td>
-      </tr>
-      <tr>
-        <td id="L328" class="blob-num js-line-number" data-line-number="328"></td>
-        <td id="LC328" class="blob-code js-file-line"># key 376 &quot;KEY_PC&quot;</td>
-      </tr>
-      <tr>
-        <td id="L329" class="blob-num js-line-number" data-line-number="329"></td>
-        <td id="LC329" class="blob-code js-file-line">key 377   TV</td>
-      </tr>
-      <tr>
-        <td id="L330" class="blob-num js-line-number" data-line-number="330"></td>
-        <td id="LC330" class="blob-code js-file-line"># key 378 &quot;KEY_TV2&quot;</td>
-      </tr>
-      <tr>
-        <td id="L331" class="blob-num js-line-number" data-line-number="331"></td>
-        <td id="LC331" class="blob-code js-file-line"># key 379 &quot;KEY_VCR&quot;</td>
-      </tr>
-      <tr>
-        <td id="L332" class="blob-num js-line-number" data-line-number="332"></td>
-        <td id="LC332" class="blob-code js-file-line"># key 380 &quot;KEY_VCR2&quot;</td>
-      </tr>
-      <tr>
-        <td id="L333" class="blob-num js-line-number" data-line-number="333"></td>
-        <td id="LC333" class="blob-code js-file-line"># key 381 &quot;KEY_SAT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L334" class="blob-num js-line-number" data-line-number="334"></td>
-        <td id="LC334" class="blob-code js-file-line"># key 382 &quot;KEY_SAT2&quot;</td>
-      </tr>
-      <tr>
-        <td id="L335" class="blob-num js-line-number" data-line-number="335"></td>
-        <td id="LC335" class="blob-code js-file-line"># key 383 &quot;KEY_CD&quot;</td>
-      </tr>
-      <tr>
-        <td id="L336" class="blob-num js-line-number" data-line-number="336"></td>
-        <td id="LC336" class="blob-code js-file-line"># key 384 &quot;KEY_TAPE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L337" class="blob-num js-line-number" data-line-number="337"></td>
-        <td id="LC337" class="blob-code js-file-line"># key 385 &quot;KEY_RADIO&quot;</td>
-      </tr>
-      <tr>
-        <td id="L338" class="blob-num js-line-number" data-line-number="338"></td>
-        <td id="LC338" class="blob-code js-file-line"># key 386 &quot;KEY_TUNER&quot;</td>
-      </tr>
-      <tr>
-        <td id="L339" class="blob-num js-line-number" data-line-number="339"></td>
-        <td id="LC339" class="blob-code js-file-line"># key 387 &quot;KEY_PLAYER&quot;</td>
-      </tr>
-      <tr>
-        <td id="L340" class="blob-num js-line-number" data-line-number="340"></td>
-        <td id="LC340" class="blob-code js-file-line"># key 388 &quot;KEY_TEXT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L341" class="blob-num js-line-number" data-line-number="341"></td>
-        <td id="LC341" class="blob-code js-file-line"># key 389 &quot;KEY_DVD&quot;</td>
-      </tr>
-      <tr>
-        <td id="L342" class="blob-num js-line-number" data-line-number="342"></td>
-        <td id="LC342" class="blob-code js-file-line"># key 390 &quot;KEY_AUX&quot;</td>
-      </tr>
-      <tr>
-        <td id="L343" class="blob-num js-line-number" data-line-number="343"></td>
-        <td id="LC343" class="blob-code js-file-line"># key 391 &quot;KEY_MP3&quot;</td>
-      </tr>
-      <tr>
-        <td id="L344" class="blob-num js-line-number" data-line-number="344"></td>
-        <td id="LC344" class="blob-code js-file-line"># key 392 &quot;KEY_AUDIO&quot;</td>
-      </tr>
-      <tr>
-        <td id="L345" class="blob-num js-line-number" data-line-number="345"></td>
-        <td id="LC345" class="blob-code js-file-line"># key 393 &quot;KEY_VIDEO&quot;</td>
-      </tr>
-      <tr>
-        <td id="L346" class="blob-num js-line-number" data-line-number="346"></td>
-        <td id="LC346" class="blob-code js-file-line"># key 394 &quot;KEY_DIRECTORY&quot;</td>
-      </tr>
-      <tr>
-        <td id="L347" class="blob-num js-line-number" data-line-number="347"></td>
-        <td id="LC347" class="blob-code js-file-line"># key 395 &quot;KEY_LIST&quot;</td>
-      </tr>
-      <tr>
-        <td id="L348" class="blob-num js-line-number" data-line-number="348"></td>
-        <td id="LC348" class="blob-code js-file-line"># key 396 &quot;KEY_MEMO&quot;</td>
-      </tr>
-      <tr>
-        <td id="L349" class="blob-num js-line-number" data-line-number="349"></td>
-        <td id="LC349" class="blob-code js-file-line">key 397   CALENDAR</td>
-      </tr>
-      <tr>
-        <td id="L350" class="blob-num js-line-number" data-line-number="350"></td>
-        <td id="LC350" class="blob-code js-file-line"># key 398 &quot;KEY_RED&quot;</td>
-      </tr>
-      <tr>
-        <td id="L351" class="blob-num js-line-number" data-line-number="351"></td>
-        <td id="LC351" class="blob-code js-file-line"># key 399 &quot;KEY_GREEN&quot;</td>
-      </tr>
-      <tr>
-        <td id="L352" class="blob-num js-line-number" data-line-number="352"></td>
-        <td id="LC352" class="blob-code js-file-line"># key 400 &quot;KEY_YELLOW&quot;</td>
-      </tr>
-      <tr>
-        <td id="L353" class="blob-num js-line-number" data-line-number="353"></td>
-        <td id="LC353" class="blob-code js-file-line"># key 401 &quot;KEY_BLUE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L354" class="blob-num js-line-number" data-line-number="354"></td>
-        <td id="LC354" class="blob-code js-file-line">key 402   CHANNEL_UP</td>
-      </tr>
-      <tr>
-        <td id="L355" class="blob-num js-line-number" data-line-number="355"></td>
-        <td id="LC355" class="blob-code js-file-line">key 403   CHANNEL_DOWN</td>
-      </tr>
-      <tr>
-        <td id="L356" class="blob-num js-line-number" data-line-number="356"></td>
-        <td id="LC356" class="blob-code js-file-line"># key 404 &quot;KEY_FIRST&quot;</td>
-      </tr>
-      <tr>
-        <td id="L357" class="blob-num js-line-number" data-line-number="357"></td>
-        <td id="LC357" class="blob-code js-file-line"># key 405 &quot;KEY_LAST&quot;</td>
-      </tr>
-      <tr>
-        <td id="L358" class="blob-num js-line-number" data-line-number="358"></td>
-        <td id="LC358" class="blob-code js-file-line"># key 406 &quot;KEY_AB&quot;</td>
-      </tr>
-      <tr>
-        <td id="L359" class="blob-num js-line-number" data-line-number="359"></td>
-        <td id="LC359" class="blob-code js-file-line"># key 407 &quot;KEY_NEXT&quot;</td>
-      </tr>
-      <tr>
-        <td id="L360" class="blob-num js-line-number" data-line-number="360"></td>
-        <td id="LC360" class="blob-code js-file-line"># key 408 &quot;KEY_RESTART&quot;</td>
-      </tr>
-      <tr>
-        <td id="L361" class="blob-num js-line-number" data-line-number="361"></td>
-        <td id="LC361" class="blob-code js-file-line"># key 409 &quot;KEY_SLOW&quot;</td>
-      </tr>
-      <tr>
-        <td id="L362" class="blob-num js-line-number" data-line-number="362"></td>
-        <td id="LC362" class="blob-code js-file-line"># key 410 &quot;KEY_SHUFFLE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L363" class="blob-num js-line-number" data-line-number="363"></td>
-        <td id="LC363" class="blob-code js-file-line"># key 411 &quot;KEY_BREAK&quot;</td>
-      </tr>
-      <tr>
-        <td id="L364" class="blob-num js-line-number" data-line-number="364"></td>
-        <td id="LC364" class="blob-code js-file-line"># key 412 &quot;KEY_PREVIOUS&quot;</td>
-      </tr>
-      <tr>
-        <td id="L365" class="blob-num js-line-number" data-line-number="365"></td>
-        <td id="LC365" class="blob-code js-file-line"># key 413 &quot;KEY_DIGITS&quot;</td>
-      </tr>
-      <tr>
-        <td id="L366" class="blob-num js-line-number" data-line-number="366"></td>
-        <td id="LC366" class="blob-code js-file-line"># key 414 &quot;KEY_TEEN&quot;</td>
-      </tr>
-      <tr>
-        <td id="L367" class="blob-num js-line-number" data-line-number="367"></td>
-        <td id="LC367" class="blob-code js-file-line"># key 415 &quot;KEY_TWEN&quot;</td>
-      </tr>
-      <tr>
-        <td id="L368" class="blob-num js-line-number" data-line-number="368"></td>
-        <td id="LC368" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L369" class="blob-num js-line-number" data-line-number="369"></td>
-        <td id="LC369" class="blob-code js-file-line">key 429   CONTACTS</td>
-      </tr>
-      <tr>
-        <td id="L370" class="blob-num js-line-number" data-line-number="370"></td>
-        <td id="LC370" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L371" class="blob-num js-line-number" data-line-number="371"></td>
-        <td id="LC371" class="blob-code js-file-line"># key 448 &quot;KEY_DEL_EOL&quot;</td>
-      </tr>
-      <tr>
-        <td id="L372" class="blob-num js-line-number" data-line-number="372"></td>
-        <td id="LC372" class="blob-code js-file-line"># key 449 &quot;KEY_DEL_EOS&quot;</td>
-      </tr>
-      <tr>
-        <td id="L373" class="blob-num js-line-number" data-line-number="373"></td>
-        <td id="LC373" class="blob-code js-file-line"># key 450 &quot;KEY_INS_LINE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L374" class="blob-num js-line-number" data-line-number="374"></td>
-        <td id="LC374" class="blob-code js-file-line"># key 451 &quot;KEY_DEL_LINE&quot;</td>
-      </tr>
-      <tr>
-        <td id="L375" class="blob-num js-line-number" data-line-number="375"></td>
-        <td id="LC375" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L376" class="blob-num js-line-number" data-line-number="376"></td>
-        <td id="LC376" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L377" class="blob-num js-line-number" data-line-number="377"></td>
-        <td id="LC377" class="blob-code js-file-line">key 464   FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L378" class="blob-num js-line-number" data-line-number="378"></td>
-        <td id="LC378" class="blob-code js-file-line">key 465   ESCAPE            FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L379" class="blob-num js-line-number" data-line-number="379"></td>
-        <td id="LC379" class="blob-code js-file-line">key 466   F1                FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L380" class="blob-num js-line-number" data-line-number="380"></td>
-        <td id="LC380" class="blob-code js-file-line">key 467   F2                FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L381" class="blob-num js-line-number" data-line-number="381"></td>
-        <td id="LC381" class="blob-code js-file-line">key 468   F3                FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L382" class="blob-num js-line-number" data-line-number="382"></td>
-        <td id="LC382" class="blob-code js-file-line">key 469   F4                FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L383" class="blob-num js-line-number" data-line-number="383"></td>
-        <td id="LC383" class="blob-code js-file-line">key 470   F5                FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L384" class="blob-num js-line-number" data-line-number="384"></td>
-        <td id="LC384" class="blob-code js-file-line">key 471   F6                FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L385" class="blob-num js-line-number" data-line-number="385"></td>
-        <td id="LC385" class="blob-code js-file-line">key 472   F7                FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L386" class="blob-num js-line-number" data-line-number="386"></td>
-        <td id="LC386" class="blob-code js-file-line">key 473   F8                FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L387" class="blob-num js-line-number" data-line-number="387"></td>
-        <td id="LC387" class="blob-code js-file-line">key 474   F9                FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L388" class="blob-num js-line-number" data-line-number="388"></td>
-        <td id="LC388" class="blob-code js-file-line">key 475   F10               FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L389" class="blob-num js-line-number" data-line-number="389"></td>
-        <td id="LC389" class="blob-code js-file-line">key 476   F11               FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L390" class="blob-num js-line-number" data-line-number="390"></td>
-        <td id="LC390" class="blob-code js-file-line">key 477   F12               FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L391" class="blob-num js-line-number" data-line-number="391"></td>
-        <td id="LC391" class="blob-code js-file-line">key 478   1                 FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L392" class="blob-num js-line-number" data-line-number="392"></td>
-        <td id="LC392" class="blob-code js-file-line">key 479   2                 FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L393" class="blob-num js-line-number" data-line-number="393"></td>
-        <td id="LC393" class="blob-code js-file-line">key 480   D                 FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L394" class="blob-num js-line-number" data-line-number="394"></td>
-        <td id="LC394" class="blob-code js-file-line">key 481   E                 FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L395" class="blob-num js-line-number" data-line-number="395"></td>
-        <td id="LC395" class="blob-code js-file-line">key 482   F                 FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L396" class="blob-num js-line-number" data-line-number="396"></td>
-        <td id="LC396" class="blob-code js-file-line">key 483   S                 FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L397" class="blob-num js-line-number" data-line-number="397"></td>
-        <td id="LC397" class="blob-code js-file-line">key 484   B                 FUNCTION</td>
-      </tr>
-      <tr>
-        <td id="L398" class="blob-num js-line-number" data-line-number="398"></td>
-        <td id="LC398" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L399" class="blob-num js-line-number" data-line-number="399"></td>
-        <td id="LC399" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L400" class="blob-num js-line-number" data-line-number="400"></td>
-        <td id="LC400" class="blob-code js-file-line"># key 497 KEY_BRL_DOT1</td>
-      </tr>
-      <tr>
-        <td id="L401" class="blob-num js-line-number" data-line-number="401"></td>
-        <td id="LC401" class="blob-code js-file-line"># key 498 KEY_BRL_DOT2</td>
-      </tr>
-      <tr>
-        <td id="L402" class="blob-num js-line-number" data-line-number="402"></td>
-        <td id="LC402" class="blob-code js-file-line"># key 499 KEY_BRL_DOT3</td>
-      </tr>
-      <tr>
-        <td id="L403" class="blob-num js-line-number" data-line-number="403"></td>
-        <td id="LC403" class="blob-code js-file-line"># key 500 KEY_BRL_DOT4</td>
-      </tr>
-      <tr>
-        <td id="L404" class="blob-num js-line-number" data-line-number="404"></td>
-        <td id="LC404" class="blob-code js-file-line"># key 501 KEY_BRL_DOT5</td>
-      </tr>
-      <tr>
-        <td id="L405" class="blob-num js-line-number" data-line-number="405"></td>
-        <td id="LC405" class="blob-code js-file-line"># key 502 KEY_BRL_DOT6</td>
-      </tr>
-      <tr>
-        <td id="L406" class="blob-num js-line-number" data-line-number="406"></td>
-        <td id="LC406" class="blob-code js-file-line"># key 503 KEY_BRL_DOT7</td>
-      </tr>
-      <tr>
-        <td id="L407" class="blob-num js-line-number" data-line-number="407"></td>
-        <td id="LC407" class="blob-code js-file-line"># key 504 KEY_BRL_DOT8</td>
-      </tr>
-      <tr>
-        <td id="L408" class="blob-num js-line-number" data-line-number="408"></td>
-        <td id="LC408" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L409" class="blob-num js-line-number" data-line-number="409"></td>
-        <td id="LC409" class="blob-code js-file-line">key 580   APP_SWITCH</td>
-      </tr>
-      <tr>
-        <td id="L410" class="blob-num js-line-number" data-line-number="410"></td>
-        <td id="LC410" class="blob-code js-file-line">key 582   VOICE_ASSIST</td>
-      </tr>
-      <tr>
-        <td id="L411" class="blob-num js-line-number" data-line-number="411"></td>
-        <td id="LC411" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L412" class="blob-num js-line-number" data-line-number="412"></td>
-        <td id="LC412" class="blob-code js-file-line"># Keys defined by HID usages</td>
-      </tr>
-      <tr>
-        <td id="L413" class="blob-num js-line-number" data-line-number="413"></td>
-        <td id="LC413" class="blob-code js-file-line">key usage 0x0c006F BRIGHTNESS_UP</td>
-      </tr>
-      <tr>
-        <td id="L414" class="blob-num js-line-number" data-line-number="414"></td>
-        <td id="LC414" class="blob-code js-file-line">key usage 0x0c0070 BRIGHTNESS_DOWN</td>
-      </tr>
-      <tr>
-        <td id="L415" class="blob-num js-line-number" data-line-number="415"></td>
-        <td id="LC415" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L416" class="blob-num js-line-number" data-line-number="416"></td>
-        <td id="LC416" class="blob-code js-file-line"># Joystick and game controller axes.</td>
-      </tr>
-      <tr>
-        <td id="L417" class="blob-num js-line-number" data-line-number="417"></td>
-        <td id="LC417" class="blob-code js-file-line"># Axes that are not mapped will be assigned generic axis numbers by the input subsystem.</td>
-      </tr>
-      <tr>
-        <td id="L418" class="blob-num js-line-number" data-line-number="418"></td>
-        <td id="LC418" class="blob-code js-file-line">axis 0x00 X</td>
-      </tr>
-      <tr>
-        <td id="L419" class="blob-num js-line-number" data-line-number="419"></td>
-        <td id="LC419" class="blob-code js-file-line">axis 0x01 Y</td>
-      </tr>
-      <tr>
-        <td id="L420" class="blob-num js-line-number" data-line-number="420"></td>
-        <td id="LC420" class="blob-code js-file-line">axis 0x02 Z</td>
-      </tr>
-      <tr>
-        <td id="L421" class="blob-num js-line-number" data-line-number="421"></td>
-        <td id="LC421" class="blob-code js-file-line">axis 0x03 RX</td>
-      </tr>
-      <tr>
-        <td id="L422" class="blob-num js-line-number" data-line-number="422"></td>
-        <td id="LC422" class="blob-code js-file-line">axis 0x04 RY</td>
-      </tr>
-      <tr>
-        <td id="L423" class="blob-num js-line-number" data-line-number="423"></td>
-        <td id="LC423" class="blob-code js-file-line">axis 0x05 RZ</td>
-      </tr>
-      <tr>
-        <td id="L424" class="blob-num js-line-number" data-line-number="424"></td>
-        <td id="LC424" class="blob-code js-file-line">axis 0x06 THROTTLE</td>
-      </tr>
-      <tr>
-        <td id="L425" class="blob-num js-line-number" data-line-number="425"></td>
-        <td id="LC425" class="blob-code js-file-line">axis 0x07 RUDDER</td>
-      </tr>
-      <tr>
-        <td id="L426" class="blob-num js-line-number" data-line-number="426"></td>
-        <td id="LC426" class="blob-code js-file-line">axis 0x08 WHEEL</td>
-      </tr>
-      <tr>
-        <td id="L427" class="blob-num js-line-number" data-line-number="427"></td>
-        <td id="LC427" class="blob-code js-file-line">axis 0x09 GAS</td>
-      </tr>
-      <tr>
-        <td id="L428" class="blob-num js-line-number" data-line-number="428"></td>
-        <td id="LC428" class="blob-code js-file-line">axis 0x0a BRAKE</td>
-      </tr>
-      <tr>
-        <td id="L429" class="blob-num js-line-number" data-line-number="429"></td>
-        <td id="LC429" class="blob-code js-file-line">axis 0x10 HAT_X</td>
-      </tr>
-      <tr>
-        <td id="L430" class="blob-num js-line-number" data-line-number="430"></td>
-        <td id="LC430" class="blob-code js-file-line">axis 0x11 HAT_Y</td>
-      </tr>
-      <tr>
-        <td id="L431" class="blob-num js-line-number" data-line-number="431"></td>
-        <td id="LC431" class="blob-code js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L432" class="blob-num js-line-number" data-line-number="432"></td>
-        <td id="LC432" class="blob-code js-file-line"># LEDs</td>
-      </tr>
-      <tr>
-        <td id="L433" class="blob-num js-line-number" data-line-number="433"></td>
-        <td id="LC433" class="blob-code js-file-line">led 0x00 NUM_LOCK</td>
-      </tr>
-      <tr>
-        <td id="L434" class="blob-num js-line-number" data-line-number="434"></td>
-        <td id="LC434" class="blob-code js-file-line">led 0x01 CAPS_LOCK</td>
-      </tr>
-      <tr>
-        <td id="L435" class="blob-num js-line-number" data-line-number="435"></td>
-        <td id="LC435" class="blob-code js-file-line">led 0x02 SCROLL_LOCK</td>
-      </tr>
-      <tr>
-        <td id="L436" class="blob-num js-line-number" data-line-number="436"></td>
-        <td id="LC436" class="blob-code js-file-line">led 0x03 COMPOSE</td>
-      </tr>
-      <tr>
-        <td id="L437" class="blob-num js-line-number" data-line-number="437"></td>
-        <td id="LC437" class="blob-code js-file-line">led 0x04 KANA</td>
-      </tr>
-      <tr>
-        <td id="L438" class="blob-num js-line-number" data-line-number="438"></td>
-        <td id="LC438" class="blob-code js-file-line">led 0x05 SLEEP</td>
-      </tr>
-      <tr>
-        <td id="L439" class="blob-num js-line-number" data-line-number="439"></td>
-        <td id="LC439" class="blob-code js-file-line">led 0x06 SUSPEND</td>
-      </tr>
-      <tr>
-        <td id="L440" class="blob-num js-line-number" data-line-number="440"></td>
-        <td id="LC440" class="blob-code js-file-line">led 0x07 MUTE</td>
-      </tr>
-      <tr>
-        <td id="L441" class="blob-num js-line-number" data-line-number="441"></td>
-        <td id="LC441" class="blob-code js-file-line">led 0x08 MISC</td>
-      </tr>
-      <tr>
-        <td id="L442" class="blob-num js-line-number" data-line-number="442"></td>
-        <td id="LC442" class="blob-code js-file-line">led 0x09 MAIL</td>
-      </tr>
-      <tr>
-        <td id="L443" class="blob-num js-line-number" data-line-number="443"></td>
-        <td id="LC443" class="blob-code js-file-line">led 0x0a CHARGING</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-</div>
-
-<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
-<div id="jump-to-line" style="display:none">
-  <form accept-charset="UTF-8" class="js-jump-to-line-form">
-    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
-    <button type="submit" class="button">Go</button>
-  </form>
-</div>
-
-        </div>
-
-      </div><!-- /.repo-container -->
-      <div class="modal-backdrop"></div>
-    </div><!-- /.container -->
-  </div><!-- /.site -->
-
-
-    </div><!-- /.wrapper -->
-
-      <div class="container">
-  <div class="site-footer" role="contentinfo">
-    <ul class="site-footer-links right">
-      <li><a href="https://status.github.com/">Status</a></li>
-      <li><a href="https://developer.github.com">API</a></li>
-      <li><a href="http://training.github.com">Training</a></li>
-      <li><a href="http://shop.github.com">Shop</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/about">About</a></li>
-
-    </ul>
-
-    <a href="/" aria-label="Homepage">
-      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
-    </a>
-
-    <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.04312s from github-fe125-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
-        <li><a href="/site/terms">Terms</a></li>
-        <li><a href="/site/privacy">Privacy</a></li>
-        <li><a href="/security">Security</a></li>
-        <li><a href="/contact">Contact</a></li>
-    </ul>
-  </div><!-- /.site-footer -->
-</div><!-- /.container -->
-
-
-    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
-  <div class="fullscreen-container js-suggester-container">
-    <div class="textarea-wrap">
-      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
-      <div class="suggester-container">
-        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
-      </div>
-    </div>
-  </div>
-  <div class="fullscreen-sidebar">
-    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
-      <span class="mega-octicon octicon-screen-normal"></span>
-    </a>
-    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
-      aria-label="Switch themes">
-      <span class="octicon octicon-color-mode"></span>
-    </a>
-  </div>
-</div>
-
-
-
-    <div id="ajax-error-message" class="flash flash-error">
-      <span class="octicon octicon-alert"></span>
-      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
-      Something went wrong with that request. Please try again.
-    </div>
-
-
-      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-a53cc1d2ecae95baef19b4168bf69815523b6eea183f7af29fa0d120fda72d36.js" type="text/javascript"></script>
-      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-56c56f7fe2ed90ca50b9eefebccd56f3b9729a85d7ba17f0f9c9ebd02f20a7e3.js" type="text/javascript"></script>
-      
-      
-  </body>
-</html>
-
+# Copyright (C) 2010 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#
+# Generic key layout file for full alphabetic US English PC style external keyboards.
+#
+# This file is intentionally very generic and is intended to support a broad rang of keyboards.
+# Do not edit the generic key layout to support a specific keyboard; instead, create
+# a new key layout file with the required keyboard configuration.
+#
+
+key 1     ESCAPE
+key 2     1
+key 3     2
+key 4     3
+key 5     4
+key 6     5
+key 7     6
+key 8     7
+key 9     8
+key 10    9
+key 11    0
+key 12    MINUS
+key 13    EQUALS
+key 14    DEL
+key 15    TAB
+key 16    Q
+key 17    W
+key 18    E
+key 19    R
+key 20    T
+key 21    Y
+key 22    U
+key 23    I
+key 24    O
+key 25    P
+key 26    LEFT_BRACKET
+key 27    RIGHT_BRACKET
+key 28    ENTER
+key 29    CTRL_LEFT
+key 30    A
+key 31    S
+key 32    D
+key 33    F
+key 34    G
+key 35    H
+key 36    J
+key 37    K
+key 38    L
+key 39    SEMICOLON
+key 40    APOSTROPHE
+key 41    GRAVE
+key 42    SHIFT_LEFT
+key 43    BACKSLASH
+key 44    Z
+key 45    X
+key 46    C
+key 47    V
+key 48    B
+key 49    N
+key 50    M
+key 51    COMMA
+key 52    PERIOD
+key 53    SLASH
+key 54    SHIFT_RIGHT
+key 55    NUMPAD_MULTIPLY
+key 56    ALT_LEFT
+key 57    SPACE
+key 58    CAPS_LOCK
+key 59    F1
+key 60    F2
+key 61    F3
+key 62    F4
+key 63    F5
+key 64    F6
+key 65    F7
+key 66    F8
+key 67    F9
+key 68    F10
+key 69    NUM_LOCK
+key 70    SCROLL_LOCK
+key 71    NUMPAD_7
+key 72    NUMPAD_8
+key 73    NUMPAD_9
+key 74    NUMPAD_SUBTRACT
+key 75    NUMPAD_4
+key 76    NUMPAD_5
+key 77    NUMPAD_6
+key 78    NUMPAD_ADD
+key 79    NUMPAD_1
+key 80    NUMPAD_2
+key 81    NUMPAD_3
+key 82    NUMPAD_0
+key 83    NUMPAD_DOT
+# key 84 (undefined)
+key 85    ZENKAKU_HANKAKU
+key 86    BACKSLASH
+key 87    F11
+key 88    F12
+key 89    RO
+# key 90 "KEY_KATAKANA"
+# key 91 "KEY_HIRAGANA"
+key 92    HENKAN
+key 93    KATAKANA_HIRAGANA
+key 94    MUHENKAN
+key 95    NUMPAD_COMMA
+key 96    NUMPAD_ENTER
+key 97    CTRL_RIGHT
+key 98    NUMPAD_DIVIDE
+key 99    SYSRQ
+key 100   ALT_RIGHT
+# key 101 "KEY_LINEFEED"
+key 102   HOME              VIRTUAL
+key 103   DPAD_UP
+key 104   PAGE_UP
+key 105   DPAD_LEFT
+key 106   DPAD_RIGHT
+key 107   MOVE_END
+key 108   DPAD_DOWN
+key 109   PAGE_DOWN
+key 110   INSERT
+key 111   FORWARD_DEL
+# key 112 "KEY_MACRO"
+key 113   VOLUME_MUTE
+key 114   VOLUME_DOWN
+key 115   VOLUME_UP
+key 116   POWER
+key 117   NUMPAD_EQUALS
+# key 118 "KEY_KPPLUSMINUS"
+key 119   BREAK
+# key 120 (undefined)
+key 121   NUMPAD_COMMA
+key 122   KANA
+key 123   EISU
+key 124   YEN
+key 125   META_LEFT
+key 126   META_RIGHT
+key 127   MENU
+key 128   MEDIA_STOP
+# key 129 "KEY_AGAIN"
+# key 130 "KEY_PROPS"
+# key 131 "KEY_UNDO"
+# key 132 "KEY_FRONT"
+# key 133 "KEY_COPY"
+# key 134 "KEY_OPEN"
+# key 135 "KEY_PASTE"
+# key 136 "KEY_FIND"
+# key 137 "KEY_CUT"
+# key 138 "KEY_HELP"
+key 139   MENU
+key 140   CALCULATOR
+# key 141 "KEY_SETUP"
+key 142   SLEEP
+key 143   WAKEUP
+# key 144 "KEY_FILE"
+# key 145 "KEY_SENDFILE"
+# key 146 "KEY_DELETEFILE"
+# key 147 "KEY_XFER"
+# key 148 "KEY_PROG1"
+# key 149 "KEY_PROG2"
+key 150   EXPLORER
+# key 151 "KEY_MSDOS"
+key 152   POWER
+# key 153 "KEY_DIRECTION"
+# key 154 "KEY_CYCLEWINDOWS"
+key 155   ENVELOPE
+key 156   BOOKMARK
+# key 157 "KEY_COMPUTER"
+key 158   BACK              VIRTUAL
+key 159   FORWARD
+key 160   MEDIA_CLOSE
+key 161   MEDIA_EJECT
+key 162   MEDIA_EJECT
+key 163   MEDIA_NEXT
+key 164   MEDIA_PLAY_PAUSE
+key 165   MEDIA_PREVIOUS
+key 166   MEDIA_STOP
+key 167   MEDIA_RECORD
+key 168   MEDIA_REWIND
+key 169   CALL
+# key 170 "KEY_ISO"
+key 171   MUSIC
+key 172   MENU              VIRTUAL
+# key 173 "KEY_REFRESH"
+# key 174 "KEY_EXIT"
+# key 175 "KEY_MOVE"
+# key 176 "KEY_EDIT"
+key 177   PAGE_UP
+key 178   PAGE_DOWN
+key 179   NUMPAD_LEFT_PAREN
+key 180   NUMPAD_RIGHT_PAREN
+# key 181 "KEY_NEW"
+# key 182 "KEY_REDO"
+# key 183   F13
+# key 184   F14
+# key 185   F15
+# key 186   F16
+# key 187   F17
+# key 188   F18
+# key 189   F19
+# key 190   F20
+# key 191   F21
+# key 192   F22
+# key 193   F23
+# key 194   F24
+# key 195 (undefined)
+# key 196 (undefined)
+# key 197 (undefined)
+# key 198 (undefined)
+# key 199 (undefined)
+key 200   MEDIA_PLAY
+key 201   MEDIA_PAUSE
+# key 202 "KEY_PROG3"
+# key 203 "KEY_PROG4"
+# key 204 (undefined)
+# key 205 "KEY_SUSPEND"
+# key 206 "KEY_CLOSE"
+key 207   MEDIA_PLAY
+key 208   MEDIA_FAST_FORWARD
+# key 209 "KEY_BASSBOOST"
+# key 210 "KEY_PRINT"
+# key 211 "KEY_HP"
+key 212   CAMERA
+key 213   MUSIC
+# key 214 "KEY_QUESTION"
+key 215   ENVELOPE
+# key 216 "KEY_CHAT"
+key 217   SEARCH
+# key 218 "KEY_CONNECT"
+# key 219 "KEY_FINANCE"
+# key 220 "KEY_SPORT"
+# key 221 "KEY_SHOP"
+# key 222 "KEY_ALTERASE"
+# key 223 "KEY_CANCEL"
+key 224   BRIGHTNESS_DOWN
+key 225   BRIGHTNESS_UP
+key 226   HEADSETHOOK
+
+key 250   INFO
+
+key 256   BUTTON_1
+key 257   BUTTON_2
+key 258   BUTTON_3
+key 259   BUTTON_4
+key 260   BUTTON_5
+key 261   BUTTON_6
+key 262   BUTTON_7
+key 263   BUTTON_8
+key 264   BUTTON_9
+key 265   BUTTON_10
+key 266   BUTTON_11
+key 267   BUTTON_12
+key 268   BUTTON_13
+key 269   BUTTON_14
+key 270   BUTTON_15
+key 271   BUTTON_16
+
+key 288   BUTTON_1
+key 289   BUTTON_2
+key 290   BUTTON_3
+key 291   BUTTON_4
+key 292   BUTTON_5
+key 293   BUTTON_6
+key 294   BUTTON_7
+key 295   BUTTON_8
+key 296   BUTTON_9
+key 297   BUTTON_10
+key 298   BUTTON_11
+key 299   BUTTON_12
+key 300   BUTTON_13
+key 301   BUTTON_14
+key 302   BUTTON_15
+key 303   BUTTON_16
+
+
+key 304   BUTTON_A
+key 305   BUTTON_B
+key 306   BUTTON_C
+key 307   BUTTON_X
+key 308   BUTTON_Y
+key 309   BUTTON_Z
+key 310   BUTTON_L1
+key 311   BUTTON_R1
+key 312   BUTTON_L2
+key 313   BUTTON_R2
+key 314   BUTTON_SELECT
+key 315   BUTTON_START
+key 316   BUTTON_MODE
+key 317   BUTTON_THUMBL
+key 318   BUTTON_THUMBR
+
+
+# key 352 "KEY_OK"
+key 353   DPAD_CENTER
+# key 354 "KEY_GOTO"
+# key 355 "KEY_CLEAR"
+# key 356 "KEY_POWER2"
+# key 357 "KEY_OPTION"
+# key 358 "KEY_INFO"
+# key 359 "KEY_TIME"
+# key 360 "KEY_VENDOR"
+# key 361 "KEY_ARCHIVE"
+key 362   GUIDE
+# key 363 "KEY_CHANNEL"
+# key 364 "KEY_FAVORITES"
+# key 365 "KEY_EPG"
+key 366   DVR
+# key 367 "KEY_MHP"
+# key 368 "KEY_LANGUAGE"
+# key 369 "KEY_TITLE"
+# key 370 "KEY_SUBTITLE"
+# key 371 "KEY_ANGLE"
+# key 372 "KEY_ZOOM"
+# key 373 "KEY_MODE"
+# key 374 "KEY_KEYBOARD"
+# key 375 "KEY_SCREEN"
+# key 376 "KEY_PC"
+key 377   TV
+# key 378 "KEY_TV2"
+# key 379 "KEY_VCR"
+# key 380 "KEY_VCR2"
+# key 381 "KEY_SAT"
+# key 382 "KEY_SAT2"
+# key 383 "KEY_CD"
+# key 384 "KEY_TAPE"
+# key 385 "KEY_RADIO"
+# key 386 "KEY_TUNER"
+# key 387 "KEY_PLAYER"
+# key 388 "KEY_TEXT"
+# key 389 "KEY_DVD"
+# key 390 "KEY_AUX"
+# key 391 "KEY_MP3"
+# key 392 "KEY_AUDIO"
+# key 393 "KEY_VIDEO"
+# key 394 "KEY_DIRECTORY"
+# key 395 "KEY_LIST"
+# key 396 "KEY_MEMO"
+key 397   CALENDAR
+# key 398 "KEY_RED"
+# key 399 "KEY_GREEN"
+# key 400 "KEY_YELLOW"
+# key 401 "KEY_BLUE"
+key 402   CHANNEL_UP
+key 403   CHANNEL_DOWN
+# key 404 "KEY_FIRST"
+# key 405 "KEY_LAST"
+# key 406 "KEY_AB"
+# key 407 "KEY_NEXT"
+# key 408 "KEY_RESTART"
+# key 409 "KEY_SLOW"
+# key 410 "KEY_SHUFFLE"
+# key 411 "KEY_BREAK"
+# key 412 "KEY_PREVIOUS"
+# key 413 "KEY_DIGITS"
+# key 414 "KEY_TEEN"
+# key 415 "KEY_TWEN"
+
+key 429   CONTACTS
+
+# key 448 "KEY_DEL_EOL"
+# key 449 "KEY_DEL_EOS"
+# key 450 "KEY_INS_LINE"
+# key 451 "KEY_DEL_LINE"
+
+
+key 464   FUNCTION
+key 465   ESCAPE            FUNCTION
+key 466   F1                FUNCTION
+key 467   F2                FUNCTION
+key 468   F3                FUNCTION
+key 469   F4                FUNCTION
+key 470   F5                FUNCTION
+key 471   F6                FUNCTION
+key 472   F7                FUNCTION
+key 473   F8                FUNCTION
+key 474   F9                FUNCTION
+key 475   F10               FUNCTION
+key 476   F11               FUNCTION
+key 477   F12               FUNCTION
+key 478   1                 FUNCTION
+key 479   2                 FUNCTION
+key 480   D                 FUNCTION
+key 481   E                 FUNCTION
+key 482   F                 FUNCTION
+key 483   S                 FUNCTION
+key 484   B                 FUNCTION
+
+
+# key 497 KEY_BRL_DOT1
+# key 498 KEY_BRL_DOT2
+# key 499 KEY_BRL_DOT3
+# key 500 KEY_BRL_DOT4
+# key 501 KEY_BRL_DOT5
+# key 502 KEY_BRL_DOT6
+# key 503 KEY_BRL_DOT7
+# key 504 KEY_BRL_DOT8
+
+key 580   APP_SWITCH
+key 582   VOICE_ASSIST
+
+# Keys defined by HID usages
+key usage 0x0c006F BRIGHTNESS_UP
+key usage 0x0c0070 BRIGHTNESS_DOWN
+
+# Joystick and game controller axes.
+# Axes that are not mapped will be assigned generic axis numbers by the input subsystem.
+axis 0x00 X
+axis 0x01 Y
+axis 0x02 Z
+axis 0x03 RX
+axis 0x04 RY
+axis 0x05 RZ
+axis 0x06 THROTTLE
+axis 0x07 RUDDER
+axis 0x08 WHEEL
+axis 0x09 GAS
+axis 0x0a BRAKE
+axis 0x10 HAT_X
+axis 0x11 HAT_Y
+
+# LEDs
+led 0x00 NUM_LOCK
+led 0x01 CAPS_LOCK
+led 0x02 SCROLL_LOCK
+led 0x03 COMPOSE
+led 0x04 KANA
+led 0x05 SLEEP
+led 0x06 SUSPEND
+led 0x07 MUTE
+led 0x08 MISC
+led 0x09 MAIL
+led 0x0a CHARGING
