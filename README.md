@@ -1,4 +1,4 @@
-CyanogenMod 11.0 device configuration for LG L70 D320 D320n D325
+CyanogenMod 12.0 device configuration for LG L70 D320 D320n D325
 
 How to build:
 -------------
@@ -9,7 +9,7 @@ Initializing a Build Environment:
 
 Initialize repo:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-12.0
 
     curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/vm03/android_local_manifest/master/local_manifest.xml
     repo sync
