@@ -47,7 +47,8 @@ PRODUCT_COPY_FILES += \
     device/lge/w5/prebuilt/etc/init.d/10nfc_checker:system/etc/init.d/10nfc_checker \
     device/lge/w5/prebuilt/etc/init.d/11keys_checker:system/etc/init.d/11keys_checker \
     device/lge/w5/prebuilt/usr/keylayout/Generic-D320.kl:system/usr/keylayout/Generic-D320.kl \
-    device/lge/w5/prebuilt/usr/keylayout/Generic-D325.kl:system/usr/keylayout/Generic-D325.kl
+    device/lge/w5/prebuilt/usr/keylayout/Generic-D325.kl:system/usr/keylayout/Generic-D325.kl \
+    device/lge/w5/prebuilt/usr/keylayout/Generic-MS323.kl:system/usr/keylayout/Generic-MS323.kl
 
 PRODUCT_LOCALES := en_US
 PRODUCT_LOCALES += hdpi
