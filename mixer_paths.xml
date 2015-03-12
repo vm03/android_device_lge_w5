@@ -83,9 +83,9 @@
     <!-- Voip -->
     <ctl name="SEC_MI2S_RX_Voice Mixer Voip" value="0" />
     <ctl name="Voip_Tx Mixer PRI_MI2S_TX_Voip" value="0" />
-	<!-- Commented out by LGE
+        <!-- Commented out by LGE
     <ctl name="Internal BTSCO SampleRate" value="8000" />
-	-->
+        -->
     <ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="0" />
     <ctl name="Voip_Tx Mixer INTERNAL_BT_SCO_TX_Voip" value="0" />
     <!-- Voip end -->
@@ -293,7 +293,7 @@
 
     <path name="compress-voip-call">
         <ctl name="SEC_MI2S_RX_Voice Mixer Voip" value="1" />
-        <ctl name="Voip_Tx Mixer PRI_MI2S_TX_Voip" value="1" />
+        <ctl name="Voip_Tx Mixer PRI_MI2S_TX_Voip" value="1" /> 
     </path>
 
     <path name="compress-voip-call bt-sco">
@@ -309,14 +309,14 @@
     <!-- These are actual sound device specific mixer settings -->
     <path name="adc1">
         <ctl name="DEC1 MUX" value="ADC1"/>
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="DEC1 Volume" value="67" />
         <ctl name="ADC1 Volume" value="60" />
     </path>
 
     <path name="adc2">
         <ctl name="DEC1 MUX" value="ADC2"/>
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="DEC1 Volume" value="67" />
         <ctl name="ADC2 Volume" value="60" />
     </path>
@@ -324,7 +324,7 @@
     <path name="speaker">
         <!-- LGE added start-->
         <ctl name="RX3 Digital Volume" value="62" />
-	<!-- LGE added end -->
+        <!-- LGE added end -->
         <ctl name="RX3 MIX1 INP1" value="RX1" />
         <ctl name="SPK DAC Switch" value="1" />
     </path>
@@ -336,26 +336,26 @@
 
     <path name="speaker-mic">
         <path name="adc2" />
-	<ctl name="IIR1 INP1 MUX" value="DEC1" />
-	<!-- LGE added -->
+        <ctl name="IIR1 INP1 MUX" value="DEC1" />
+        <!-- LGE added -->
         <ctl name="DEC1 Volume" value="60" />
         <ctl name="ADC2 Volume" value="60" />
-	<ctl name="ADC2 MUX" value="INP3" />
+        <ctl name="ADC2 MUX" value="INP3" />
     </path>
 
     <path name="handset">
         <!-- LGE added added start-->
         <ctl name="MI2S_RX Channels" value="One" />
-	<!-- LGE added end -->
+        <!-- LGE added end -->
         <ctl name="RX1 MIX1 INP1" value="RX1" />
-	<!-- LGE changed value 84->60" -->
+        <!-- LGE changed value 84->60" -->
         <ctl name="RX1 Digital Volume" value="60" />
         <ctl name="DAC1 Switch" value="1" />
     </path>
 
     <path name="handset-mic">
         <path name="adc1" />
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
         <ctl name="DEC1 Volume" value="59" />
         <ctl name="ADC1 Volume" value="16" />
@@ -366,7 +366,7 @@
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RX2 MIX1 INP1" value="RX2" />
         <ctl name="HPHL DAC Switch" value="1" />
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="RX1 Digital Volume" value="50" />
         <ctl name="RX2 Digital Volume" value="50" />
     </path>
@@ -375,7 +375,7 @@
         <path name="adc2" />
         <ctl name="ADC2 MUX" value="INP2" />
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="ADC2 Volume" value="8" />
     </path>
 
@@ -402,20 +402,22 @@
 
     <path name="voice-handset">
         <path name="handset" />
-	<!-- LGE added -->
-	<ctl name="RX1 Digital Volume" value="60" />
+        <!-- LGE added -->
+        <ctl name="RX1 Digital Volume" value="60" />
+        <ctl name="RX2 Digital Volume" value="60" />
     </path>
 
 <!-- VoIP -->
     <path name="voip-handset-comm">
         <path name="handset" />
         <ctl name="RX1 Digital Volume" value="60" />
+        <ctl name="RX2 Digital Volume" value="60" />
     </path>
 
     <path name="voip-headset-comm">
         <path name="headphones" />
-        <ctl name="RX1 Digital Volume" value="65" />
-        <ctl name="RX2 Digital Volume" value="65" />
+        <ctl name="RX1 Digital Volume" value="60" />
+        <ctl name="RX2 Digital Volume" value="60" />
     </path>
 
     <path name="voip-speaker-comm">
@@ -440,35 +442,35 @@
 
     <path name="voice-speaker">
         <path name="speaker" />
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="RX3 Digital Volume" value="65" />
         <ctl name="SPK DRV Volume" value="8" />
     </path>
 
     <path name="voice-speaker-mic">
         <path name="speaker-mic" />
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="DEC1 Volume" value="60" />
         <ctl name="ADC2 Volume" value="16" />
     </path>
-	
+
     <path name="voice-headphones">
         <path name="headphones" />
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="RX1 Digital Volume" value="60" />
         <ctl name="RX2 Digital Volume" value="60" />
     </path>
 
     <path name="voice-headset-mic">
         <path name="headset-mic" />
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="ADC2 Volume" value="13" />
     </path>
 
     <path name="speaker-and-headphones">
         <path name="speaker" />
         <path name="headphones" />
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="RX3 MIX1 INP2" value="RX2" />
         <ctl name="RX1 Digital Volume" value="50" />
         <ctl name="RX2 Digital Volume" value="50" />
@@ -496,14 +498,14 @@
 
     <path name="voice-rec-mic">
         <path name="handset-mic" />
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="DEC1 Volume" value="64" />
         <ctl name="ADC1 Volume" value="12" />
     </path>
 
     <path name="camcorder-mic">
         <path name="handset-mic" />
-	<!-- LGE added -->
+        <!-- LGE added -->
         <ctl name="DEC1 Volume" value="64" />
         <ctl name="ADC1 Volume" value="12" />
     </path>
@@ -595,17 +597,17 @@
         <path name="adc1" />
     </path>
     
-    <!-- LGE devices -->	
+    <!-- LGE devices -->
     <!-- LGE devices IRRC -->
     <path name="lg-irrc-lineout">
         <ctl name="RX3 MIX1 INP1" value="RX1" />
         <ctl name="RX3 Digital Volume" value="100" />
         <ctl name="RDAC4 MUX" value="RX3" />
     </path>
-	
-	<!-- LGE devices VOICE MEMO -->
+
+        <!-- LGE devices VOICE MEMO -->
     <path name="lg-vm-handset-mic">
-    	<path name="handset-mic" />
+        <path name="handset-mic" />
         <ctl name="ADC1 Volume" value="12" />
         <ctl name="DEC1 Volume" value="64" />
     </path>
@@ -615,7 +617,7 @@
         <ctl name="ADC2 Volume" value="12" />
         <ctl name="DEC1 Volume" value="64" />
     </path>
-	
+
     <!-- LGE devices VOICE RECOGNITION -->
     <path name="lg-vr-handset-mic">
         <path name="handset-mic" />
@@ -640,7 +642,7 @@
     </path>
 
     <path name="lg-bt-nrec-sco-mic">
-    </path>	
+    </path>
 
     <path name="deep-buffer-playback bt-sco-wb">
         <ctl name="Internal BTSCO SampleRate" value="16000" />
@@ -667,12 +669,12 @@
         <path name="handset" />
     </path>
 
-	    <!-- LGE devices loopback -->
+            <!-- LGE devices loopback -->
     <path name="lg-voip-loopback">
         <ctl name="SEC_MI2S_RX_Voice Mixer Voip" value="1" />
         <ctl name="Voip_Tx Mixer PRI_MI2S_TX_Voip" value="1" />
     </path>
-	
+
     <path name="lg-loopback-earpiece">
         <path name="handset" />
         <ctl name="RX1 Digital Volume" value="70" />
@@ -694,32 +696,32 @@
         <ctl name="DEC1 Volume" value="60" />
         <ctl name="ADC1 Volume" value="50" />
     </path>
-	
+
     <path name="lg-loopback-headset-mic">
         <path name="headset-mic" />
         <ctl name="DEC1 Volume" value="55" />
         <ctl name="ADC2 Volume" value="60" />
     </path>
-	
+
     <path name="lg-loopback-speaker-mic">
         <path name="speaker-mic" />
         <ctl name="DEC1 Volume" value="55" />
         <ctl name="ADC2 Volume" value="40" />
     </path>
     
-	<path name="lg-voip-loopback bt-sco">
-		<ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia1" value="1" />
-		<ctl name="Internal BTSCO SampleRate" value="8000" />
-		<ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="1" />
-		<ctl name="Voip_Tx Mixer INTERNAL_BT_SCO_TX_Voip" value="1" />
-	</path>
+        <path name="lg-voip-loopback bt-sco">
+                <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia1" value="1" />
+                <ctl name="Internal BTSCO SampleRate" value="8000" />
+                <ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="1" />
+                <ctl name="Voip_Tx Mixer INTERNAL_BT_SCO_TX_Voip" value="1" />
+        </path>
 
-	<path name="lg-voip-loopback bt-sco-wb">
-		<ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia1" value="1" />
-		<ctl name="Internal BTSCO SampleRate" value="16000" />
-		<ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="1" />
-		<ctl name="Voip_Tx Mixer INTERNAL_BT_SCO_TX_Voip" value="1" />
-	</path>
+        <path name="lg-voip-loopback bt-sco-wb">
+                <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia1" value="1" />
+                <ctl name="Internal BTSCO SampleRate" value="16000" />
+                <ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="1" />
+                <ctl name="Voip_Tx Mixer INTERNAL_BT_SCO_TX_Voip" value="1" />
+        </path>
 
     <path name="lg-mictest-speaker-mic">
         <path name="speaker-mic" />
