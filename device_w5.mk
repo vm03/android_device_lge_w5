@@ -55,5 +55,7 @@ PRODUCT_LOCALES += hdpi
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
+$(call inherit-product, vendor/lge/w5/w5-vendor.mk)
+
 # Inherit from msm8610-common
 $(call inherit-product, device/lge/msm8610-common/msm8610.mk)
