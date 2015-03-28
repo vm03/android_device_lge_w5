@@ -35,4 +35,7 @@ TARGET_OTA_ASSERT_DEVICE := w5,w5ds
 # Nfc
 BOARD_NFC_CHIPSET := pn547
 
+#TWRP
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+
 -include vendor/lge/w5/BoardConfigVendor.mk
