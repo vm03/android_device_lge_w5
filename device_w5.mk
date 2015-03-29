@@ -44,8 +44,6 @@ PRODUCT_COPY_FILES += \
     device/lge/w5/prebuilt/etc/nfc-nci.conf:system/etc/nfc-nci.conf \
     device/lge/w5/prebuilt/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/lge/w5/prebuilt/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
-    device/lge/w5/prebuilt/etc/init.d/10nfc_checker:system/etc/init.d/10nfc_checker \
-    device/lge/w5/prebuilt/etc/init.d/11keys_checker:system/etc/init.d/11keys_checker \
     device/lge/w5/prebuilt/usr/keylayout/Generic-D320.kl:system/usr/keylayout/Generic-D320.kl \
     device/lge/w5/prebuilt/usr/keylayout/Generic-D325.kl:system/usr/keylayout/Generic-D325.kl \
     device/lge/w5/prebuilt/usr/keylayout/Generic-MS323.kl:system/usr/keylayout/Generic-MS323.kl \
@@ -55,6 +53,10 @@ PRODUCT_LOCALES := en_US
 PRODUCT_LOCALES += hdpi
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
+
+# OTA
+PRODUCT_COPY_FILES += \
+    device/lge/w5/prebuilt/fixup.sh:fixup.sh
 
 $(call inherit-product, vendor/lge/w5/w5-vendor.mk)
 

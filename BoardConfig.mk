@@ -38,4 +38,7 @@ BOARD_NFC_CHIPSET := pn547
 #TWRP
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/lge/w5
+
 -include vendor/lge/w5/BoardConfigVendor.mk
