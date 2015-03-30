@@ -28,7 +28,7 @@ case $model in
 	rm -rf /system/app/NfcNci
 	cat /system/usr/keylayout/Generic-D325.kl > /system/usr/keylayout/Generic.kl
           ;;
-     "LG-MS323")
+     "LGMS323")
 	rm /system/etc/permissions/android.hardware.nfc.xml
 	rm /system/etc/permissions/android.hardware.nfc.hce.xml
 	rm /system/lib/hw/nfc_nci.w5.so
