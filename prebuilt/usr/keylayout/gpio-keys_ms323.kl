@@ -25,10 +25,12 @@
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 
 key	116	POWER			WAKE
-key	115	VOLUME_UP		WAKE_DROPPED
-key	114	VOLUME_DOWN		WAKE
-key	102	HOME			WAKE
-key	250	CAMERA			VIRTUAL
+key     115     VOLUME_UP               WAKE_DROPPED
+key     114     VOLUME_DOWN             WAKE
+key     102     HOME                    WAKE
+key     250     CAMERA
 
-key	158	BACK			VIRTUAL
-key	172	MENU			VIRTUAL
+key     158     BACK                    VIRTUAL
+key     172     HOME                    VIRTUAL
+key     139     MENU                    VIRTUAL
+key     249     CHANNEL_UP              VIRTUAL
