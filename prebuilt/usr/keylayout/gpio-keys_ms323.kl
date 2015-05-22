@@ -31,6 +31,5 @@ key     102     HOME                    WAKE
 key     250     CAMERA
 
 key     158     BACK                    VIRTUAL
-key     172     HOME                    VIRTUAL
-key     139     MENU                    VIRTUAL
+key     172     MENU                    VIRTUAL
 key     249     CHANNEL_UP              VIRTUAL
