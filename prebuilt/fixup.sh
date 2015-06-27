@@ -55,7 +55,8 @@ case $model in
 	rm /system/lib/hw/nfc_nci.w5.so
 	rm -rf /system/app/NfcNci
 	cat /system/usr/keylayout/Generic-MS323.kl > /system/usr/keylayout/Generic.kl
-	rm /system/lib/hw/keystore.msm8610.so
+	rm -rf /system/vendor/firmware/keymaster/
+	mv     /system/vendor/firmware/keymaster.ms323/ /system/vendor/firmware/keymaster/
           ;;
      *)
 	rm /system/etc/permissions/android.hardware.nfc.xml
