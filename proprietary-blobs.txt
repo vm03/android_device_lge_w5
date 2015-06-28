@@ -10,3 +10,10 @@ etc/ACDB/workspaceFile.qwsp
 
 #NFC
 vendor/firmware/libpn547_fw.so
+
+#Keymaster for ms323
+vendor/firmware/keymaster.ms323/keymaster.b00
+vendor/firmware/keymaster.ms323/keymaster.b01
+vendor/firmware/keymaster.ms323/keymaster.b02
+vendor/firmware/keymaster.ms323/keymaster.b03
+vendor/firmware/keymaster.ms323/keymaster.mdt
