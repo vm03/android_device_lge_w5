@@ -506,8 +506,8 @@
     <path name="camcorder-mic">
         <path name="handset-mic" />
         <!-- LGE added -->
-        <ctl name="DEC1 Volume" value="64" />
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="DEC1 Volume" value="90" />
+        <ctl name="ADC1 Volume" value="20" />
     </path>
 
     <path name="bt-sco-headset">
