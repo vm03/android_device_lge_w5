@@ -49,6 +49,13 @@ case $model in
 	rm -rf /system/app/NfcNci
 	cat /system/usr/keylayout/Generic-D320.kl > /system/usr/keylayout/Generic.kl
           ;;
+     "LG-D320TR")
+        rm /system/etc/permissions/android.hardware.nfc.xml
+        rm /system/etc/permissions/android.hardware.nfc.hce.xml
+        rm /system/lib/hw/nfc_nci.w5.so
+        rm -rf /system/app/NfcNci
+        cat /system/usr/keylayout/Generic-D320.kl > /system/usr/keylayout/Generic.kl
+          ;;
      "LGMS323")
 	rm /system/etc/permissions/android.hardware.nfc.xml
 	rm /system/etc/permissions/android.hardware.nfc.hce.xml
