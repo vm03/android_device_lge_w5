@@ -89,14 +89,14 @@
         <item>30</item>
     </integer-array>
 
-    <!-- Performance profiles  	-->
+    <!-- Performance profiles  	
     <string name="config_perf_profile_prop">sys.perf.profile</string>
-    <string name="config_perf_profile_default_entry">1</string>
+    <string name="config_perf_profile_default_entry">1</string> -->
 
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
-         The default is false. -->
-    <bool name="config_lidControlsSleep">true</bool>
+         The default is false. 
+    <bool name="config_lidControlsSleep">true</bool> -->
 
     <!-- Set to true if we need to not prefer an APN.
          This is being added to enable a simple scenario of pre-paid
@@ -186,8 +186,8 @@
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
 
-    <!-- Workaround for devices with broken keyboards -->
-    <bool name="config_forceDisableHardwareKeyboard">true</bool>
+    <!-- Workaround for devices with broken keyboards 
+    <bool name="config_forceDisableHardwareKeyboard">true</bool> -->
 
     <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
@@ -272,8 +272,8 @@
     <!-- Our amoled doesn't animate well. -->
     <bool name="config_animateScreenLights">false</bool> 
 
-    <!-- We dont have different firmware for wifi modes, prevent reloading it -->
-    <bool name="config_wifiApFirmwareReload">false</bool>
+    <!-- We dont have different firmware for wifi modes, prevent reloading it 
+    <bool name="config_wifiApFirmwareReload">false</bool> -->
 
     <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
         on the headphone/microphone jack. When false use the older uevent framework. -->
