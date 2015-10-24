@@ -36,11 +36,9 @@
 #include "log.h"
 #include "util.h"
 
-#include "init_msm.h"
-
 #define CHUNK 2048 /* read 2048 bytes at a time */
 
-int check_cmdline(char param[]) {
+int check_cmdline(const char param[]) {
 
     char buf[CHUNK];
     FILE *file;
@@ -73,10 +71,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     char device[PROP_VALUE_MAX];
     char devicename[PROP_VALUE_MAX];
 
-    UNUSED(msm_id);
-    UNUSED(msm_ver);
-    UNUSED(board_type);
-
     property_get("ro.boot.serialno", serial);
     if (strncmp(serial, "LGD320", 6) == 0) {
         if (check_cmdline("model.name=LG-D320n") == 1) {
@@ -96,7 +90,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.product.model", "LG-D325");
         property_set("ro.build.description", "w5ds_global_com-user 4.4.2 KOT49I.D41510c D41510c.1393916607 release-keys");
         property_set("ro.build.fingerprint", "lge/w5ds_global_com-user/w5ds:4.4.2/KOT49I.D41510c/D41510c.1393916607:user/release-keys");
-                property_set("persist.radio.multisim.config", "dsds");
+        property_set("persist.radio.multisim.config", "dsds");
+	property_set("persist.multisim.config", "dsds");
         property_set("telephony.lteOnCdmaDevice", "0");
     } else if (strncmp(serial, "LGMS323", 7) == 0) {
         property_set("ro.product.device", "w5");

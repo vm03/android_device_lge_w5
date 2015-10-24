@@ -26,7 +26,7 @@
 TARGET_KERNEL_CONFIG := w5n_global_com_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/w5/mkbootimg.mk
 
-TARGET_LIBINIT_DEFINES_FILE := device/lge/w5/init/init_w5.c
+TARGET_LIBINIT_DEFINES_FILE := device/lge/w5/init/init_w5.cpp
 
 DEVICE_RESOLUTION := 480x800
 
