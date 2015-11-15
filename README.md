@@ -18,4 +18,4 @@ Initialize repo:
 Compile:
 
     . build/envsetup.sh
-    brunch cm_w5-userdebug
+    brunch cm_w55ds-userdebug
