@@ -1,4 +1,4 @@
-CyanogenMod 12.0 device configuration for LG L70 D320 D320n D325
+CyanogenMod 12.0 device configuration for LG L65 (L70 D320 D320n D325)
 
 How to build:
 -------------
